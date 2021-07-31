@@ -1,0 +1,53 @@
+/*---------------------Contactos---------------------*/
+#mapa{
+  width: 100%;
+  margin: 2%;
+  height: 25vh;
+  border-radius: 10px;
+}
+
+.contacto{
+  width: 100%;
+  height: 100%;
+  background-color: #b2cd36;
+}
+
+textarea {
+  resize: none;
+}
+
+#contact-container{
+  margin-top: 0;
+  background-color: #b2cd36;
+  padding: 2em;
+  height: 100%;
+}
+
+#textBlock{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.info-cont iframe{
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+/*Formulario*/
+.textin{
+  margin: 10px;
+  font-family: 'Fredoka One', cursive;
+  color: #454545;
+}
+
+.textin p{
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.fenviar{
+  margin: 10px;
+}

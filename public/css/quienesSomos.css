@@ -1,0 +1,580 @@
+th, td, tr{
+  font-weight: 100;
+}
+
+/*---------------Quienes Somos-------------------*/
+.qSContainer{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 2%;
+}
+/*Historia*/
+.imgHistoria{
+  width: 60%;
+  margin-right: -40%;
+}
+
+.textoHistoria{
+  text-align: justify;
+  padding-right: 15%;
+  font-size: 1.1em;
+  padding: 10%;
+}
+
+/*Mision Vision y Objetivos*/
+#qSomos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #b2cd36;
+  margin: 1px;
+}
+
+#qSomos p{
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+}
+
+#qSomos h3{
+  font-size: 3em;  
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.lm{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  width: 25%;
+  height: 5px;
+  background: #fbbc35;
+}
+
+#vis-obj{
+  margin: 1px;
+  align-items: flex-start;
+}
+
+/*vision*/
+#vision{
+  justify-content: start;
+  align-items: center;
+  background-color: #33afd0;
+}
+
+#vision p{
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+}
+
+#vision h3{
+  font-size: 3em;  
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.lv{
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 40px;
+  width: 25%;
+  height: 5px;
+  background: #f64397;
+}
+
+/*objetivo*/
+#mision{
+  justify-content: start;
+  align-items: center;
+  background-color: #f64397;
+  margin: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#mision p{
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+}
+
+#mision h3{
+  font-size: 3em;  
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+}
+
+.lo{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  width: 25%;
+  height: 5px;
+  background: #b2cd36;
+}
+
+#compromiso{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tCol{
+  text-align: justify;
+  margin-top: 2%;
+}
+
+.tCol span{
+  color: black;
+}
+
+.izquierda{
+  margin-left: 12%;
+}
+
+.derecha{
+  margin-right: 12%;
+}
+
+/*------------------Junta directiva--------------------*/
+.container-junta {
+  margin-top: 40px;
+}
+
+.node-amarillo {
+  background-color: #ffbe1a;
+}
+
+.node-celeste {
+  background-color: #00b1d3;
+}
+
+.node-verde {
+  background-color: #a7cf16;
+}
+
+.node-rosado {
+  background-color: #ff419b;
+}
+
+.node-list{
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.letra-amarillo {
+  font-family: "Fredoka One", cursive;
+  color: #ffbe1a;
+}
+
+.letra-celeste {
+  font-family: "Fredoka One", cursive;
+  color: #00b1d3;
+}
+
+.letra-verde {
+  font-family: "Fredoka One", cursive;
+  color: #a7cf16;
+}
+
+.letra-rosado {
+  font-family: "Fredoka One", cursive;
+  color: #ff419b;
+}
+
+.node {
+  color: white;
+  font-size: 1.3em;
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.node-parte-1 {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.node-parte-2 {
+  position: absolute;
+  margin-top: -27px;
+  margin-right: auto;
+}
+
+.node-left {
+  left: 59%;
+}
+
+.node-right {
+  right: 59%;
+}
+
+.vertical {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  width: 0px;
+}
+
+.vertical2 {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+  width: 0px;
+  margin-bottom: -40px;
+}
+
+.vertical3 {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 0px;
+}
+
+.vertical4 {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  width: 0px;
+  margin-bottom: -40px;
+}
+
+.horizontal {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0px;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.texto-prin {
+  text-align: center;
+  font-size: 2em;
+}
+
+.texto2 {
+  right: 59%;
+  margin-right: auto;
+  font-size: 2em;
+  margin-top: -70px;
+  position: absolute;
+}
+
+.texto3 {
+  left: 59%;
+  margin-right: auto;
+  font-size: 2em;
+  margin-top: -70px;
+  position: absolute;
+}
+
+.lista {
+  display: none;
+}
+
+.diagrama {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/*-------------------------Constitución Legal-----------------*/
+.info-legal {
+  margin-top: 50px;
+}
+
+.info-legal p {
+  text-align: justify;
+  font-size: 1.4em;
+}
+
+.info-legal h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.info-legal p {
+  font-weight: 400;
+}
+
+.info-legal {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(44, 44, 44);
+}
+
+/*----------------------Asociaciones de apoyo-----------------*/
+.asociaciones {
+  margin-top: 50px;
+}
+
+.asociaciones h1 {
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.linea-asociacion {
+  width: 50%;
+}
+
+.container-asociacion {
+  text-align: justify;
+  font-size: 1.2em;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.asociaciones h2 {
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.card-asociaciones img {
+  width: 200px;
+}
+
+.card-asociaciones .col-md > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-asociaciones .col-md > div {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-asociaciones .col-md > div p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.card-asociaciones h5 {
+  font-weight: 700;
+}
+
+.linea-asociaciones-card {
+  border: 2px solid #0c5294;
+  width: 95%;
+}
+
+.asociaciones-redes1 {
+  float: left;
+  margin-left: 5%;
+  color: #0c5294;
+  font-size: 1.2em;
+}
+
+.asociaciones-redes2 {
+  float: right;
+  margin-right: 5%;
+  color: #0c5294;
+  font-weight: 600;
+}
+
+/*--------------------------Voluntariado---------------------------*/
+.container-experiencias > div > div > div > div h2{
+  font-weight: 100;
+}
+
+.container-voluntariado {
+    padding: 10px 0px 10px 0px;
+  }
+  
+  .container-voluntariado h1:nth-of-type(2) {
+    margin-top: -12px;
+  }
+  
+  .container-voluntariado h2 {
+    font-family: "Fredoka One", cursive;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .container-voluntariado p:nth-of-type(1) {
+    margin-top: 3%;
+    font-weight: 500;
+  }
+  
+  .container-voluntariado p {
+    font-family: "Fredoka One", cursive;
+    font-size: 1.1em;
+  }
+  
+  .container-voluntariado p:nth-of-type(2) {
+    margin-top: -21px;
+    font-weight: 500;
+  }
+  
+  .container-voluntariado p:nth-of-type(3) {
+    margin-top: -21px;
+    font-weight: 500;
+  }
+  
+  .container-experiencias {
+    padding: 20px 0px 0px 0px;
+  }
+  
+  .container-experiencias h1 {
+    font-family: "Fredoka One", cursive;
+    font-size: 3.4em;
+    margin-bottom: 35px;
+  }
+  
+  /*---------------------------------------------------------------------------------------------------------------*/
+  
+  .container-experiencias > div:nth-child(2n) {
+    background: #ececec;
+  }
+  
+  .container-experiencias > div:nth-child(2n) > div {
+    padding: 20px;
+  }
+  
+  .container-experiencias > div:nth-child(2n) > hr,
+  .container-experiencias > div:nth-child(2n + 1) > hr {
+    width: 80%;
+  }
+  
+  .container-experiencias > div:nth-child(2n + 1) > div {
+    padding: 20px;
+  }
+  
+  .container-experiencias > div:nth-child(2n + 1),
+  .container-experiencias > div:nth-child(2n) {
+    margin-top: -16px;
+  }
+  
+  /*---------------------------------------------------------------------------------------------------------------*/
+  /*Parte 1*/
+  .container-experiencias
+    > div:nth-child(2n)
+    > div
+    > div
+    > div:nth-of-type(1)
+    h2 {
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.4em;
+  }
+  
+  .container-experiencias
+    > div:nth-child(2n)
+    > div
+    > div
+    > div:nth-of-type(1)
+    h3 {
+    font-size: 1em;
+  }
+  
+  .container-experiencias
+    > div:nth-child(2n)
+    > div
+    > div
+    > div:nth-of-type(2)
+    h2 {
+    font-size: 1.4em;
+  }
+  
+  .container-experiencias > div:nth-child(2n) > div > div > div:nth-of-type(2) p {
+    text-align: justify;
+  }
+  
+  .container-experiencias
+    > div:nth-child(2n)
+    > div
+    > div
+    > div:nth-of-type(2)
+    p
+    span {
+    font-family: "Fredoka One", cursive;
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+  
+  .container-experiencias > div:nth-child(2n) > div > div > div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+  }
+  
+  /*Parte 2*/
+  .container-experiencias
+    > div:nth-child(2n + 1)
+    > div
+    > div
+    > div:nth-of-type(2)
+    h2 {
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.4em;
+  }
+  
+  .container-experiencias
+    > div:nth-child(2n + 1)
+    > div
+    > div
+    > div:nth-of-type(2)
+    h3 {
+    font-size: 1em;
+  }
+  
+  .container-experiencias
+    > div:nth-child(2n + 1)
+    > div
+    > div
+    > div:nth-of-type(1)
+    h2 {
+    font-size: 1.4em;
+  }
+  
+  .container-experiencias
+    > div:nth-child(2n + 1)
+    > div
+    > div
+    > div:nth-of-type(1)
+    p {
+    text-align: justify;
+  }
+  
+  .container-experiencias
+    > div:nth-child(2n + 1)
+    > div
+    > div
+    > div:nth-of-type(1)
+    p
+    span {
+    font-family: "Fredoka One", cursive;
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+  
+  .container-experiencias
+    > div:nth-child(2n + 1)
+    > div
+    > div
+    > div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+  }
+  

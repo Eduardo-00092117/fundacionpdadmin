@@ -1,0 +1,444 @@
+/*----------Diseños globales-------------*/
+body {
+  padding: 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+
+.tc-celeste {
+  color: #0ca3c2;
+}
+
+.tc-anaranjado {
+  color: #fbbc35;
+}
+
+.tc-verde {
+  color: #b2cd36;
+}
+
+.tc-rojo{
+  color: #ff0048;
+}
+
+.tc-rosado {
+  color: #f64397;
+}
+
+.tc-blanco {
+  color: white;
+}
+
+.tc-gris {
+  color: #333333;
+}
+
+.tc-negro {
+  color: black;
+}
+
+.tc-amarillo {
+  color: #ffde2a;
+}
+
+.bg-amarillo{
+  background: #ffbd1b;
+}
+
+.bg-gris-claro{
+  background: #f6f6f6;
+}
+
+.bg-celeste {
+  background: #0ca3c2;
+}
+
+.bg-azul {
+  background: #00b6d5;
+}
+
+.bg-azul-oscuro{
+  background: #0093ac;
+}
+
+.bg-anaranjado {
+  background: #fbbc35;
+}
+
+.bg-verde {
+  background: #b2cd36;
+}
+
+.bg-rosado {
+  background: #f64397;
+}
+
+.bg-gris {
+  background: #333333;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px; 
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fredoka One", cursive;
+}
+
+.linea-multicolor {
+  height: 4px;
+  background: rgba(12, 164, 194, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(12, 164, 194, 1) 0%,
+    rgba(12, 164, 194, 1) 27%,
+    #b2cd36 27%,
+    #b2cd36 49%,
+    rgba(251, 188, 53, 1) 49%,
+    rgba(251, 188, 53, 1) 78%,
+    #f64397 78%,
+    #f64397 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(12, 164, 194, 1)),
+    color-stop(27%, rgba(12, 164, 194, 1)),
+    color-stop(27%, #b2cd36),
+    color-stop(49%, #b2cd36),
+    color-stop(49%, rgba(251, 188, 53, 1)),
+    color-stop(78%, rgba(251, 188, 53, 1)),
+    color-stop(78%, #f64397),
+    color-stop(100%, #f64397)
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(12, 164, 194, 1) 0%,
+    rgba(12, 164, 194, 1) 27%,
+    #b2cd36 27%,
+    #b2cd36 49%,
+    rgba(251, 188, 53, 1) 49%,
+    rgba(251, 188, 53, 1) 78%,
+    #f64397 78%,
+    #f64397 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(12, 164, 194, 1) 0%,
+    rgba(12, 164, 194, 1) 27%,
+    #b2cd36 27%,
+    #b2cd36 49%,
+    rgba(251, 188, 53, 1) 49%,
+    rgba(251, 188, 53, 1) 78%,
+    #f64397 78%,
+    #f64397 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(12, 164, 194, 1) 0%,
+    rgba(12, 164, 194, 1) 27%,
+    #b2cd36 27%,
+    #b2cd36 49%,
+    rgba(251, 188, 53, 1) 49%,
+    rgba(251, 188, 53, 1) 78%,
+    #f64397 78%,
+    #f64397 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(12, 164, 194, 1) 0%,
+    rgba(12, 164, 194, 1) 27%,
+    #b2cd36 27%,
+    #b2cd36 49%,
+    rgba(251, 188, 53, 1) 49%,
+    rgba(251, 188, 53, 1) 78%,
+    #f64397 78%,
+    #f64397 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ca4c2', endColorstr='#850685', GradientType=1 );
+}
+
+/*---------------Estilos de footer---------------------------*/
+#texto_nf {
+  font-family: "Fredoka One", cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0; 
+}
+
+.v_normal {
+  font-family: "Fredoka One", cursive;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  font-style: normal;
+  color: white;
+}
+
+.v_resaltado {
+  font-family: "Fredoka One", cursive;
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  font-style: normal;
+  color: white;
+}
+
+#t_cuerpo {
+  margin-top: 25px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+footer{
+  text-align: center;
+  background-color: #b2cd36;
+  width: auto;
+  height: max-content;
+}
+
+.info{
+  background: url('/img/footer/backimg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+
+footer bgimg{
+  z-index: -1;
+  position: absolute;
+}
+
+#contenedor{
+  z-index: 1;
+}
+
+.logofundacion img{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+#telefono h4{
+  font-size: 2em;
+  font-family: 'Fredoka One', cursive;
+  
+}
+
+#telefono p{
+  font-size: 1.5em;
+}
+
+.texto p, h4, h6{
+  margin: 0em;
+  text-align: start;
+  color: #fff;
+  margin-left: 10px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.2em;
+}
+
+#ubicacion{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+#ubicacion p, #ubicacion h6, #facebook a p, #insta a p, #cubicacion h6{
+  font-family: 'Fredoka One', cursive;
+}
+
+#ubicacion img{
+  width: 50px;
+  height: 50px;
+}
+
+#facebook a {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+#facebook a img{
+  width: 50px;
+  height: 50px;
+}
+
+#facebook a:hover, #insta a:hover{
+  text-decoration: none;
+}
+
+#facebook a p{
+  margin-top: 10px;
+}
+
+#insta a {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+#insta a img{
+  width: 50px;
+  height: 50px;
+}
+
+#insta a p{
+  margin-top: 10px;
+}
+
+
+/*----------------Nav----------------*/
+
+#telefono{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#telefono img{
+  width: 50px;
+  height: 50px;
+}
+
+.menu-admin{
+  background: #0ca3c2;
+  height: 100px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.logo-menu{
+  margin-top: 25px;
+  height: 125px;
+  align-content: flex-start;
+  background: white;
+  padding: 50px;
+  border-radius: 0px 0px 122px 0px;
+  -moz-border-radius: 0px 0px 122px 0px;
+  -webkit-border-radius: 0px 0px 122px 0px;
+  border: 0px solid #000000;
+  -webkit-box-shadow: 10px 10px 7px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 7px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 7px -8px rgba(0,0,0,0.75);
+}
+
+.link-menu{
+  padding: 15px;
+}
+
+.linea-menu{
+  border-right: 1px white dotted; 
+  height: 70px; 
+  margin-top: 15px;
+}
+
+.color-botton1{
+  color: rgb(226, 226, 226);
+}
+
+.color-botton2{
+  color: white;
+  font-weight: 400;
+}
+
+.logo-menu img{
+  width: 250px;
+  height: 65px;
+  font-weight: 400;
+  margin-top: -25px;
+}
+
+/*-----Barrita anaranjada-------*/
+.linea-smenu{
+  border-right: 2px purple solid; 
+  height: 20px; 
+  margin-top: 8px;
+}
+
+.sup{
+  color: purple;
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  padding: 0em;
+  align-items: flex-start;
+}
+
+.sup a{
+  color: purple;
+}
+
+.cont-sup{
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  margin: 0em;
+  padding: 0em;
+}
+
+.inf-s{
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+}
+
+#sn-s{
+  margin: 10px;
+}
+
+#inf{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  font-size: 1em;
+  align-items: center;
+}
+
+#inf p{
+  margin: 10px;
+}
+
+#inf i{
+  font-size: 1em;
+}
+
+.sub-menu{
+  background: #fbbc35;
+}
+
+.sub-menu a{
+  margin: 5px;
+  padding: 15px;
+  width: 98%;
+  color: rgb(32, 32, 32);
+}
+
+
+/*Pagina de mantenimiento*/
+.mantenimiento{
+  margin: 5%;
+
+}

@@ -1,0 +1,382 @@
+@media screen and (max-width: 420px) {
+    /*--------------------Index--------------------*/
+    #container-apoyos-index h1 {
+      font-size: 2em;
+    }
+  
+    #container-apoyos-index h2 {
+      font-size: 1.2em;
+    }
+  
+    #container-secciones h1,
+    #container-valores h1,
+    .container-redes h1,
+    .container-sindrome-index h1 {
+      font-size: 1.7em;
+    }
+  }
+  
+  @media screen and (max-width: 731px) {
+    /*-----------------------Junta directiva---------------------*/
+    .diagrama {
+      display: none;
+    }
+  
+    .lista {
+      display: contents;
+    }
+  
+    .texto-lista {
+      color: white;
+      padding: 5px;
+      border-radius: 20px;
+      text-align: center;
+      font-family: "Fredoka One", cursive;
+    }
+  
+    .texto-lista-principal {
+      font-size: 2em;
+      font-weight: 600;
+    }
+  
+    .lista-nombre {
+      font-size: 1.4em;
+      text-align: center;
+    }
+  
+    .lista ul {
+      text-align: left;
+      display: inline-block;
+    }
+  }
+  
+  @media screen and (max-width: 768) {
+    /*---------------------Index----------------------*/
+    #img-secciones {
+      margin-top: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    /*---------------------Index----------------------*/
+    .galeria-princial img {
+      height: 200px;
+    }
+  
+    .galeria-princial h2 {
+      font-size: 1.2em;
+      margin-bottom: 0px;
+    }
+  
+    .link-menu {
+      text-align: left;
+    }
+  
+    #aPedagogica .title {
+      font-size: 2.2em;
+    }
+  
+    #img-secciones {
+      margin-top: 20px;
+    }
+  
+    #img-valores {
+      margin-top: 20px;
+    }
+  
+    .img-valores2 {
+      margin-left: -5%;
+    }
+  
+    .container-redes img {
+      height: auto;
+    }
+  
+    .container-redes h1 br {
+      display: none;
+    }
+  
+    .container-sindrome-index img {
+      width: 100%;
+    }
+  
+    /*---------------------Terminos correctos----------------------*/
+    .container-comunicar h1,
+    .container-significado h1,
+    .container-tiposD h1 {
+      font-size: 1em;
+    }
+  
+    .container-comunicar hr,
+    .container-comunicar div,
+    .container-significado .row {
+      width: 100%;
+    }
+  
+    .container-comunicar .row,
+    .container-significado .row {
+      margin-left: 0;
+    }
+  
+    .container-enfoques h1 {
+      font-size: 1.3em;
+    }
+  
+    .container-terminos h1 {
+      font-size: 2em;
+    }
+  
+    .container-origen h1 {
+      font-size: 2em;
+    }
+  
+    .container-origen h1 br {
+      display: none;
+    }
+  
+    .container-terminos h2 {
+      font-size: 1.5em;
+      margin-top: 1px;
+    }
+  
+    .container-enfoques p,
+    .container-terminos .row {
+      width: 100%;
+      margin-left: 0%;
+    }
+  
+    .container-origen p {
+      width: 100%;
+      margin-left: 0%;
+    }
+  
+    .container-diversidad .row > div:nth-of-type(1) h1 {
+      float: none;
+    }
+  
+    .container-diversidad .row > div:nth-of-type(2) p {
+      width: 100%;
+    }
+  
+    .container-diversidad .row > div:nth-of-type(1) h1 {
+      font-size: 2em;
+    }
+  
+    .container-tiposD h2 {
+      margin-left: 0%;
+      width: 100%;
+      font-size: 1.2em;
+    }
+  
+    .container-tiposD p {
+      width: 100%;
+      margin-left: 0%;
+    }
+  
+    #linea-tiposD {
+      display: none;
+    }
+  
+    .container-enfoques .row h2 {
+      font-size: 1.5em;
+    }
+  
+    /*-------------------------------Leyes y derechos---------------------------------*/
+    .container-leyes h1 {
+      font-size: 2em;
+    }
+  
+    .container-leyes h2 {
+      font-size: 1em;
+    }
+  
+    .container-derechos h1 {
+      font-size: 1.2em;
+    }
+  
+    .container-derechos p,
+    .container-derechos div > hr {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .container-leyes hr {
+      width: 95%;
+    }
+  
+    /*-----------------------Voluntariado-----------------*/
+    .container-voluntariado h1,
+    .container-experiencias h1 {
+      font-size: 2em;
+    }
+  
+    .container-voluntariado h2 {
+      font-size: 1.4em;
+    }
+    .container-experiencias > div:nth-child(2n) > hr,
+    .container-experiencias > div:nth-child(2n + 1) > hr {
+      height: 4px;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    /*---------------------Menu-----------------------*/
+    .logo-menu {
+      height: 50px;
+      margin-bottom: 10px;
+    }
+  
+    .menu-contactanos {
+      margin-top: 0px;
+    }
+  
+    .logo-menu img {
+      width: 180px;
+      margin-left: -30px;
+    }
+  
+    .menu-admin {
+      background: #0ca3c2;
+      height: auto;
+      padding: 0 20px 20px 0px;
+    }
+  
+    .sup {
+      display: none;
+    }
+  
+    .linea-menu-responsive {
+      border-top: 1px white dotted;
+      width: 90%;
+      margin-top: 15px;
+      display: none;
+    }
+  
+    .linea-menu {
+      display: none;
+    }
+  
+    .link-menu {
+      background-color: #0a7e96;
+      padding: 20px;
+      margin-left: 10px;
+      border: 1px dotted #fbbc35;
+    }
+  
+    .link-menu br {
+      display: none;
+    }
+  
+    .espaciado br:nth-child(1) {
+      display: inline;
+    }
+  
+    .espaciado2 br {
+      display: inline;
+    }
+  
+    .color-botton1 {
+      color: white;
+    }
+  
+    .color-botton2 {
+      color: white;
+    }
+    /*---------------------Index----------------------*/
+  
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 35px;
+      width: 35px;
+    }
+  
+    .carousel-control-next-icon:after {
+      content: ">";
+      font-size: 2em;
+      color: white;
+    }
+  
+    .carousel-control-prev-icon:after {
+      content: "<";
+      font-size: 2em;
+      color: white;
+    }
+  
+    .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border: 1px solid white;
+    }
+  
+    .carousel-indicators .active {
+      width: 10px;
+      height: 10px;
+      border: 1px solid white;
+    }
+  
+    .linea-asociacion {
+      width: 100%;
+    }
+  
+    .container-asociacion {
+      width: 100%;
+      margin-left: 0%;
+    }
+  
+    #container-apoyos-index br {
+      display: none;
+    }
+  
+    /*-----------------------Junta directiva---------------------*/
+    .container-junta h1 {
+      font-size: 3em;
+    }
+  
+    /*-------------------------Constitucion Legal------------------*/
+    .info-legal br {
+      display: none;
+    }
+  
+    .info-legal p {
+      font-size: 1em;
+    }
+  
+    /*------------------Asociaciones de apoyo-----------------------*/
+    .asociaciones h1 {
+      font-size: 3em;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    /*------------------Menu----------------*/
+    .logo-menu {
+      height: 50px;
+      margin-bottom: 5px;
+    }
+  
+    .logo-menu img {
+      width: 210px;
+      height: 50px;
+      margin-left: -30px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    /*---------------------Index----------------------*/
+  
+    .sindrome2 #index-text3,
+    .sindrome2 #index-text4,
+    .sindrome1 #index-text1,
+    .sindrome1 #index-text2 {
+      font-size: 2em;
+      -webkit-text-stroke: 1px white;
+    }
+  
+    /*--------------------Menu------------------*/
+    .link-menu {
+      font-size: 0.9em;
+      margin-top: 5px;
+    }
+  }
+  

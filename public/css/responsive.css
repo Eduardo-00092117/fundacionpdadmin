@@ -1,0 +1,837 @@
+@media screen and (max-width: 1366px){
+  
+}
+
+@media screen and (max-width: 1024px) {
+  /*--------------------Terminos correctos-----------------------------*/
+  #linea-tiposD{
+    display: none;
+  }
+  
+  /*--------------------Index-----------------------------*/
+  #container-secciones h1, #container-valores div h1, .container-redes h1, .container-sindrome-index h1, 
+  #container-apoyos-index h1 {
+    font-size: 3em;
+  }
+
+  #container-secciones h2, #container-valores div h2, .container-redes h2, .container-sindrome-index h2, 
+  #container-apoyos-index h2{
+    font-size: 2.4em;
+  }
+
+  .sindrome1 #index-text1, .sindrome1 #index-text2, .sindrome2 #index-text3, .sindrome2 #index-text4{
+    font-size: 2.6em;
+  }
+  
+  /*------------------Mantenimiento-----------------------*/
+  .mantenimiento img{
+    width: 90%;
+  }
+
+  #texto1 span{
+    font-size: 25px;
+  }
+  #texto2 span{
+    font-size: 25px;
+  }
+  #texto3 span{
+    font-size: 25px;
+  }
+  #texto4 span{
+    font-size: 25px;
+  }
+  #texto5 span{
+    font-size: 25px;
+  }
+  #texto6 span{
+    font-size: 25px;
+  }
+
+  /*----------------Area de evaluacion--------------------*/
+  #aEvaluacion h1{
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
+  #aEvaluacion img{
+    margin-top: 10%;
+  }
+
+  #aEvaluacion p{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  /*-------------Area de desarrollo fisico y motor---------------*/
+  #aFisico h1{
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
+  #aFisico img{
+    margin-top: 10%;
+  }
+
+  #aFisico p{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  /*-------------Area Ocupacional---------------*/
+  #aOcupacional h1{
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
+  #aOcupacional img{
+    margin-top: 10%;
+  }
+
+  #aOcupacional p{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  /*-------------Area de lenguaje ---------------*/
+  #aLenguaje h1{
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
+  #aLenguaje img{
+    margin-top: 10%;
+  }
+
+  #aLenguaje p{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  /*-------------Area pedagogica ---------------*/
+  #aPedagogica h1{
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
+  #aPedagogica img{
+    margin-top: 10%;
+  }
+
+  #aPedagogica p{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  /*-------------Area desarrollo  ---------------*/
+  #aDesarrollo h1{
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
+  #aDesarrollo img{
+    margin-top: 10%;
+  }
+
+  #aDesarrollo p{
+    margin-left: 5%;
+    margin-right: 5%; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*----------------------------------Terminos correctos--------------------------*/
+  .container-comunicar h1, 
+  .container-significado h1,
+  .container-tiposD h1,
+  .container-enfoques h1,
+  .container-terminos h1,
+  .container-origen h1,
+  .container-inclusion h1,
+  .container-diversidad h1{
+    font-size: 3em;
+  }
+
+  .container-terminos h2{
+    font-size: 2.5em;
+    font-weight: 100;
+  }
+
+  .container-tiposD h2{
+    width: 100%;
+    margin-left: 0;
+    font-weight: 100;
+    font-size: 2.5em;
+  }
+
+  .container-enfoques .row h2{
+    font-size: 2.5em;
+    font-weight: 100;
+  }
+
+  .container-diversidad .row > div:nth-of-type(1) h1{
+    float: none;
+  }
+
+  .container-diversidad .row > div:nth-of-type(2) p{
+    width: 100%;
+  }
+
+  .container-inclusion .row > div:nth-of-type(1) hr, .container-inclusion .row > div:nth-of-type(2) hr{
+    width: 100%;
+  }
+
+  #linea-tiposD{
+    display: none;
+  }
+
+  .container-tiposD p{
+    width: 100%;
+    margin-left: 0;
+    text-align: justify;
+  }
+
+  .container-comunicar .row, .container-significado .row, .container-origen p,
+  .container-terminos .row, .container-enfoques p{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .container-comunicar hr, .container-comunicar div, .container-significado .row{
+    width: 100%;
+  }
+  
+  /*---------------------------------Leyes y derechos--------------------------*/
+  .container-derechos-art .row:nth-of-type(1) div:nth-of-type(1) h2{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .container-derechos-art .row:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(2) p:nth-of-type(1), 
+    .container-derechos-art .row > div > div:nth-of-type(2) p:nth-of-type(1){
+      margin-left: 0px;
+    }
+  
+    .container-derechos-art .row div p:nth-of-type(1){
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+  
+    .container-derechos-art .row img{
+      margin-left: 0;
+    }
+  
+    .container-derechos-art .row:nth-child(2n + 1) > div:nth-of-type(2), 
+    .container-derechos-art .row:nth-child(2n + 1) > div:nth-of-type(1), 
+    .container-derechos-art .row:nth-child(2n) > div:nth-of-type(2), 
+    .container-derechos-art .row:nth-child(2n) > div:nth-of-type(1){
+      text-align: center;
+    }
+  
+    .linea-derechos-art{
+      margin-left: 0;
+      width: 100%;
+    }
+
+  /*----------------------------------Hablemos de sindrome down----------------------------------*/
+  .sDContainer h1{
+    font-size: 3.5em;
+  }
+
+  .sDContainer h2{
+    font-size: 3em;
+  }
+
+  /*--------------------Index-----------------------------*/
+  #container-secciones h1, #container-valores div h1, .container-redes h1, .container-sindrome-index h1, 
+  #container-apoyos-index h1 {
+    font-size: 2.8em;
+  }
+
+  #container-secciones h2, #container-valores div h2, .container-redes h2, .container-sindrome-index h2, 
+  #container-apoyos-index h2{
+    font-size: 2em;
+  }
+
+  .sindrome1 #index-text1, .sindrome1 #index-text2, .sindrome2 #index-text3, .sindrome2 #index-text4{
+    font-size: 2.2em;
+  }
+  
+  h2{
+    font-size: 2em;
+  }
+
+  /*---------------------Menu-----------------------*/
+  .logo-menu {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .menu-contactanos {
+    margin-top: 0px;
+  }
+
+  .logo-menu img {
+    width: 180px;
+    height: 50px;
+    margin-left: -30px;
+  }
+
+  .menu-admin {
+    background: #0ca3c2;
+    height: auto;
+    padding: 0 20px 20px 0px;
+  }
+
+  .sup {
+    display: none;
+  }
+
+  .linea-menu-responsive {
+    border-top: 1px white dotted;
+    width: 90%;
+    margin-top: 15px;
+    display: none;
+  }
+
+  .linea-menu {
+    display: none;
+  }
+
+  .link-menu {
+    background-color: #0a7e96;
+    padding: 20px;
+    margin-left: 10px;
+    border: 1px dotted #fbbc35;
+    text-align: left;
+  }
+
+  .link-menu br {
+    display: none;
+  }
+
+  .espaciado br:nth-child(1) {
+    display: inline;
+  }
+
+  .espaciado2 br {
+    display: inline;
+  }
+
+  .color-botton1 {
+    color: white;
+  }
+
+  .color-botton2 {
+    color: white;
+  }
+
+  /*----------------Quienes somos-------------------*/
+  #desktop{
+    display: none;
+  }
+
+  #moviles{
+    display: inline;
+  }
+
+  .Mmodal{
+    margin: 1%;
+  }
+
+  /*------------------Mantenimiento-----------------------*/
+  .mantenimiento img{
+    width: 90%;
+  }
+
+  /*------------------Voluntariado------------------------*/
+  .container-voluntariado h1{
+    font-size: 3em;
+  }
+
+  .container-voluntariado h2{
+    font-size: 2em;
+  }
+
+  .container-voluntariado img{
+    width: 90%;
+  }
+
+  .Asegmento img{
+    width: 99%;
+  }
+  /*--------------------------------Terminos correctos--------------------------*/
+  .tCModal{
+    text-align: center;
+    margin: 2%;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+
+  /*---------------------------------Leyes y derechos--------------------------*/
+  .container-leyes h1{
+    font-size: 2.5em;
+  }
+
+  .container-leyes h2{
+    font-size: 1.2em;
+  }
+
+  .container-derechos-art h1:nth-of-type(1){
+    font-size: 1em;
+  }
+
+  .container-derechos h1{
+    font-size: 1.8em;
+    margin-top: 10px;
+  }
+
+  .container-derechos-art .row:nth-of-type(1) div:nth-of-type(1) h2{
+    margin-left: 0px;
+    font-size: 1.8em;
+    margin-top: 10px;
+  }
+
+  /*---------------------------------Junta directiva y constitucion legal--------------------------*/
+  .container-junta h1, .info-legal h1{
+    font-size: 2em;
+  }
+
+   /*----------------------------------Junta directiva----------------------------------*/
+   .lista{
+    display: block;
+   }
+
+   .diagrama{
+     display: none;
+   }
+
+   /*----------------------------------Hablemos de sindrome down----------------------------------*/
+   .sDContainer h1{
+    font-size: 3em;
+  }
+
+  .sDContainer h2{
+    font-size: 2.5em;
+  }
+
+  .sDContainer h1 br{
+    display: none;
+  }
+
+  #moviles img, #img-xlarge-desk, #img-med-desk, #cls-f6 img, .tituloaManosPies{
+    width: 100%;
+  }
+
+  .frmda > div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .tituloaManosPies{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .sDContainer{
+    margin-top: 10px;
+  }
+
+  .sDContainer hr{
+    width: 100%;
+  }
+
+  .sDText{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  /*----------------------------------Index----------------------------------*/
+  .galeria-princial .carousel-item > div{
+    display: block;
+    background: white;
+    padding: 20px;
+  }
+  
+  .galeria-princial .carousel-item > div > div{
+    width: 100%;
+  }
+
+  .galeria-princial > div > div > img{
+    width: 100%;  
+  }
+
+  #container-secciones h1, #container-valores div h1, .container-redes h1, .container-sindrome-index h1, 
+  #container-apoyos-index h1 {
+    font-size: 2.8em;
+  }
+
+  #container-secciones h2, #container-valores div h2, .container-redes h2, .container-sindrome-index h2, 
+  #container-apoyos-index h2{
+    font-size: 2em;
+  }
+
+  .sindrome1 #index-text1, .sindrome1 #index-text2, .sindrome2 #index-text3, .sindrome2 #index-text4{
+    font-size: 3em;
+  }
+
+  #img-secciones{
+    margin-top: 15px;
+  }
+
+  #container-valores .row div{
+    margin-top: 5px;
+  }
+
+  .img-valores2 {
+    margin-left: -15px;
+  }
+
+  #container-apoyos-index br{
+    display: none;
+  }
+
+  #qSomos h3, #vision h3, #mision h3{
+    font-size: 2.5em;
+  } 
+}
+
+@media screen and (max-width: 415px) {
+  /*---------------------------------Terminos correctos--------------------------*/
+  .container-comunicar h1, 
+  .container-significado h1,
+  .container-tiposD h1,
+  .container-enfoques h1,
+  .container-terminos h1,
+  .container-origen h1,
+  .container-inclusion h1,
+  .container-diversidad h1{
+    font-size: 2.4em;
+  }
+
+  .container-terminos h2{
+    font-size: 1.9em;
+    font-weight: 100;
+  }
+
+  .container-tiposD h2{
+    width: 100%;
+    margin-left: 0;
+    font-weight: 100;
+    font-size: 2.2em;
+  }
+
+  .container-enfoques .row h2{
+    font-size: 2.2em;
+    font-weight: 100;
+  }
+
+    /*---------------------------------Leyes y derechos--------------------------*/
+    .container-leyes h1{
+      font-size: 2em;
+    }
+  
+    .container-derechos-art h1:nth-of-type(1){
+      font-size: 1em;
+    }
+  
+    .container-derechos h1{
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+  
+    .container-derechos-art .row:nth-of-type(1) div:nth-of-type(1) h2{
+      margin-left: 0px;
+      font-size: 1.8em;
+      margin-top: 10px;
+    }
+
+  /*---------------------------------Junta directiva y constitucion legal--------------------------*/
+  .container-junta h1, .info-legal h1{
+    font-size: 2em;
+  }
+
+   /*----------------------------------Hablemos de sindrome down----------------------------------*/
+   .sDContainer h1{
+    font-size: 2.4em;
+  }
+
+  .sDContainer h2{
+    font-size: 2em;
+  }
+
+  /*----------------------------------Index----------------------------------*/
+  #container-secciones h1, #container-valores div h1, .container-redes h1, .container-sindrome-index h1, 
+  #container-apoyos-index h1 {
+    font-size: 2.4em;
+  }
+
+  #container-secciones h2, #container-valores div h2, .container-redes h2, .container-sindrome-index h2, 
+  #container-apoyos-index h2{
+    font-size: 1.6em;
+  }
+
+  .sindrome1 #index-text1, .sindrome1 #index-text2, .sindrome2 #index-text3, .sindrome2 #index-text4{
+    font-size: 2.4em;
+  }
+
+
+  /*------------------Mantenimiento-----------------------*/
+  .mantenimiento img{
+    width: 90%;
+  }
+
+   /*------------------Asociaciones de apoyo-----------------*/
+  .asociaciones h1{
+    font-size: 2em;
+  }
+
+  /*------------------Voluntariado------------------------*/
+  .container-voluntariado h1{
+    font-size: 2.5em;
+  }
+
+  .container-voluntariado h2{
+    font-size: 1.5em;
+  }
+
+  .container-voluntariado img{
+    width: 90%;
+  }
+
+  .container-experiencias h1{
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 376px){
+  /*---------------------------------Junta directiva y constitucion legal--------------------------*/
+  .container-junta h1, .info-legal h1{
+    font-size: 2em;
+  }
+
+  .info-legal p{
+    font-size: 1em;
+  }  
+
+  /*----------------------------------Hablemos de sindrome down----------------------------------*/
+  .sDContainer h1{
+    font-size: 2.1em;
+  }
+
+  .sDContainer h2{
+    font-size: 2em;
+  }
+  
+  /*----------------------------------Index----------------------------------*/
+  #container-secciones h1, #container-valores div h1, .container-redes h1, .container-sindrome-index h1, 
+  #container-apoyos-index h1 {
+    font-size: 1.8em;
+  }
+
+  #container-secciones h2, #container-valores div h2, .container-redes h2, .container-sindrome-index h2, 
+  #container-apoyos-index h2{
+    font-size: 1.4em;
+  }
+
+  .sindrome1 #index-text1, .sindrome1 #index-text2, .sindrome2 #index-text3, .sindrome2 #index-text4{
+    font-size: 2.1em;
+  }
+
+  /*------------------Mantenimiento-----------------------*/
+  .mantenimiento img{
+    width: 90%;
+  }
+
+  /*------------------Asociaciones de apoyo-----------------*/
+  .asociaciones h1{
+    font-size: 3em;
+  }
+
+  /*------------------Voluntariado------------------------*/
+  .container-voluntariado h1{
+    font-size: 2.5em;
+  }
+
+  .container-voluntariado h2{
+    font-size: 1.5em;
+  }
+
+  .container-voluntariado img{
+    width: 90%;
+  }
+
+  .container-experiencias h1{
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*---------------------------------Terminos correctos--------------------------*/
+  .container-comunicar h1, 
+  .container-significado h1,
+  .container-tiposD h1,
+  .container-enfoques h1,
+  .container-terminos h1,
+  .container-origen h1,
+  .container-inclusion h1,
+  .container-diversidad h1{
+    font-size: 2em;
+  }
+
+  .container-terminos h2{
+    font-size: 1.5em;
+    font-weight: 100;
+  }
+
+  .container-tiposD h2{
+    width: 100%;
+    margin-left: 0;
+    font-weight: 100;
+    font-size: 1.8em;
+  }
+
+  .container-enfoques .row h2{
+    font-size: 1.8em;
+    font-weight: 100;
+  }
+
+  /*---------------------------------Junta directiva y constitucion legal--------------------------*/
+  .container-junta h1, .info-legal h1{
+    font-size: 2em;
+  }
+
+  /*----------------------------------Hablemos de sindrome down----------------------------------*/
+  .sDContainer h1{
+    font-size: 2.1em;
+  }
+
+  .sDContainer h2{
+    font-size: 2em;
+  }
+  
+  /*-----------------------Menu----------------------------*/
+  .logo-menu img {
+    width: 130px;
+    height: 40px;
+    margin-left: -50px;
+    margin-bottom: 10px;
+  }
+
+  .sub-menu br{
+    display: block;
+  }
+
+  .sub-menu a{
+    font-size: 1em;
+  }
+
+  /*----------------------------------Index----------------------------------*/
+  #container-secciones h1, #container-valores div h1, .container-redes h1, .container-sindrome-index h1, 
+  #container-apoyos-index h1 {
+    font-size: 1.6em;
+  }
+
+  #container-secciones h2, #container-valores div h2, .container-redes h2, .container-sindrome-index h2, 
+  #container-apoyos-index h2{
+    font-size: 1.2em;
+  }
+
+  .sindrome1 #index-text1, .sindrome1 #index-text2, .sindrome2 #index-text3, .sindrome2 #index-text4{
+    font-size: 1.8em;
+  }
+
+  /*------------------Quienes somos----------------------*/
+  h1{
+    font-size: 1.8em;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+
+  #qSomos h3, #vision h3, #mision h3{
+    font-size: 2em;
+  }
+
+  /*------------------Mantenimiento-----------------------*/
+  .mantenimiento img{
+    width: 90%;
+  }
+
+  /*-----------------Asociaciones de apoyo----------------*/
+  .asociaciones h1{
+    font-size: 2em;
+  }
+  
+/*------------------Voluntariado------------------------*/
+  .container-voluntariado h1{
+    font-size: 2em;
+  }
+
+  .container-voluntariado h2{
+    font-size: 1em;
+  }
+
+  .container-voluntariado img{
+    width: 90%;
+  }
+
+  .container-experiencias h1{
+    font-size: 2em;
+  }
+
+}
+
+@media screen and (max-width: 280px) {
+
+  /*---------------------------------Junta directiva y constitucion legal--------------------------*/
+  .container-junta h1, .info-legal h1{
+    font-size: 2em;
+  }
+  
+  /*---------------------------------Menu------------------------------------*/
+  .sub-menu a, .link-menu a{
+    font-size: 0.8em;
+  }
+
+  /*----------------------------------Index----------------------------------*/
+  #container-secciones h1, #container-valores div h1, .container-redes h1, .container-sindrome-index h1, 
+  #container-apoyos-index h1 {
+    font-size: 1.5em;
+  }
+
+  #container-secciones h2, #container-valores div h2, .container-redes h2, .container-sindrome-index h2, 
+  #container-apoyos-index h2{
+    font-size: 1em;
+  }
+
+  .sindrome1 #index-text1, .sindrome1 #index-text2, .sindrome2 #index-text3, .sindrome2 #index-text4{
+    font-size: 1.6em;
+  }
+
+  /*----------------------------------Hablemos de sindrome down----------------------------------*/
+  .sDContainer h1{
+    font-size: 1.8em;
+  }
+
+  .sDContainer h2{
+    font-size: 1.5em;
+  }
+  
+  h1{
+    font-size: 1.5em;
+  }
+
+  h2{
+    font-size: 1.2em;
+  }
+  
+  /*------------------Mantenimiento-----------------------*/
+  .mantenimiento img{
+    width: 90%;
+  }
+}

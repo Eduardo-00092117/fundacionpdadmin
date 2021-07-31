@@ -1,0 +1,319 @@
+.Acontenedor {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.Asegmento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-right: 0;
+}
+
+.Asegmento div {
+  margin: 0;
+}
+
+.Asegmento img {
+  padding: 3px;
+}
+
+.Asegmento .row {
+  width: 100%;
+}
+
+.Asegmento .col {
+  padding: 0;
+  width: 100%;
+}
+
+
+/*-------------------Areas de lenguaje----------------------*/
+
+#aLenguaje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.etapaInicial img {
+  width: 97%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: #b2cd36 3px;
+}
+
+/*---Texto areas----*/
+
+#texto1 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fbbc35;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+}
+
+#texto1 span {
+  font-size: 30px;
+  margin-top: -2%;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#texto2 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #b2cd36;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+}
+
+#texto2 span {
+  font-size: 30px;
+  margin-top: -2%;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#texto3 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #f0378e;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+#texto3 span {
+  font-size: 30px;
+  margin-top: -2%;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#texto4 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #20b8d7;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+#texto4 span {
+  font-size: 30px;
+  margin-top: -2%;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#texto5 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fbbc35;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+#texto5 span {
+  font-size: 30px;
+  margin-top: -2%;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#texto6 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #20b8d7;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+#texto6 span {
+  font-size: 30px;
+  margin-top: -2%;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+
+/*-------------------Areas de lenguaje----------------------*/
+
+#aLenguaje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#aLenguaje p {
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*------------------Area Pedagogica---------------*/
+#aPedagogica {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aPedagogica img {
+  margin-top: 10%;
+}
+
+#aPedagogica p {
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*-------------------area fisico motor--------------*/
+#aFisico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aFisico img {
+  margin-top: 10%;
+}
+
+#aFisico p {
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*------------------Area Ocupacional------------------*/
+#aOcupacional {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aOcupacional img {
+  margin-top: 10%;
+}
+
+#aOcupacional p {
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*-------------------Area de desarrollo---------------------*/
+
+#aDesarrollo {
+  /*margin-top: 15px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aDesarrollo img {
+  margin-top: 10%;
+}
+
+#aDesarrollo p {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*-------------------Area de evaluacion------------------*/
+#titulo-evaluacion {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Fredoka One", cursive;
+}
+
+#aEvaluacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aEvaluacion img {
+  margin-top: 10%;
+}
+
+#aEvaluacion h1 {
+  font-size: 3em;
+}
+
+#aEvaluacion p {
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*-----------------------Boletines-----------------------*/
+#boletin {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 75%;
+}
+
+.card-text {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.textoCarrusel {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.menu-contactanos {
+  margin-top: 10px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+  .segmento1 img{
+    margin-top: 20px; 
+    margin-left: 10%; 
+    width: 80%; 
+    height: 90%;
+  }
+}
