@@ -63,3 +63,7 @@ Route::get('/mantenimiento', "MainController@index11")
     ->name("mantenimiento");
  
 Route::post('/contactar', 'EmailController@contact')->name('contact');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
