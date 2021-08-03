@@ -23,7 +23,7 @@
         <div class="carousel-item active">
           <div align="center row">
             <div style="display:flex; align-items: center;">
-              <img src="{{$pos->url_imagen}}" class="d-block" alt="...">
+              <img src="img/{{$pos->url_imagen}}" class="d-block" alt="...">
             </div>
             <div>
               <div>
@@ -37,7 +37,7 @@
           <div class="carousel-item">
             <div align="center row">
               <div style="display:flex; align-items: center;">
-                <img src="{{$pos->url_imagen}}" class="d-block" alt="...">
+                <img src="img/{{$pos->url_imagen}}" class="d-block" alt="...">
               </div>
               <div>
                 <div>
@@ -175,7 +175,7 @@
     <div class="row row-cols-md-5 row-cols-2 center">
         @foreach($patrocinadores as $pos)
             <div class="col">
-              <img src="{{$pos->url_imagen}}" class="img-fluid" alt="{{$pos->nombre}}">
+              <img src="img/{{$pos->url_imagen}}" class="img-fluid" alt="{{$pos->nombre}}">
             </div>
         @endforeach
     </div>

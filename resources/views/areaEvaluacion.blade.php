@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="col-md">
-                <img src="{{$area[0]->url_imagen}}" alt="" width="100%">
+                <img src="img/{{$area[0]->url_imagen}}" alt="" width="100%">
             </div>
         </div>
 
@@ -21,7 +21,7 @@
     <div id="moviles">
         <div class="col etapaInicial">
             <div class="row">
-                <img src="{{$area[0]->url_imagen}}" alt="" width="100%">
+                <img src="img/{{$area[0]->url_imagen}}" alt="" width="100%">
             </div>
             <div class="row" id="aEvaluacion">
                 <div>

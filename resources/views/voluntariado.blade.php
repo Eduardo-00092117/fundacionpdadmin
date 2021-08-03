@@ -6,7 +6,7 @@
         <hr class="linea-multicolor">
         <h2>¿CÓMO SER VOLUNTARIO?</h2>
         <div id="desktop">
-            <img src="{{$area[7]->url_imagen}}" class="img-fluid" alt="...">
+            <img src="img/{{$area[7]->url_imagen}}" class="img-fluid" alt="...">
         </div>
         
         <div id="moviles">
@@ -142,7 +142,7 @@
                         <div class="col-12 col-md-6">
                             <h2 class="tc-blanco node-verde">{{$pos->nombre}} {{$pos->apellido}}</h2>
                             <h3 class="tc-verde" style="text-transform: uppercase;">{{$titulo}} DE {{$pos->pais->nombre}}</h3>
-                            <img src="{{$pos->url_foto}}" class="img-fluid" alt="...">
+                            <img src="img/{{$pos->url_foto}}" class="img-fluid" alt="...">
                         </div>
                         <div class="col-12 col-md-6">
                             <div>
@@ -167,7 +167,7 @@
                         <div class="col-12 col-md-6">
                             <h2 class="tc-blanco node-rosado n-voluntario">{{$pos->nombre}} {{$pos->apellido}}</h2>
                             <h3 class="tc-rosado" style="text-transform: uppercase;">{{$titulo}} DE {{$pos->pais->nombre}}</h3>
-                            <img src="{{$pos->url_foto}}" class="img-fluid" alt="Responsive image">
+                            <img src="img/{{$pos->url_foto}}" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
                         <div class="col-12 col-md-6">
                             <h2 class="tc-blanco node-celeste">{{$pos->nombre}} {{$pos->apellido}}</h2>
                             <h3 class="tc-celeste" style="text-transform: uppercase;">{{$titulo}} DE {{$pos->pais->nombre}}</h3>
-                            <img src="{{$pos->url_foto}}" class="img-fluid" alt="...">
+                            <img src="img/{{$pos->url_foto}}" class="img-fluid" alt="...">
                         </div>
                         <div class="col-12 col-md-6">
                             <div>
@@ -205,7 +205,7 @@
                         <div class="col-12 col-md-6">
                             <h2 class="tc-blanco node-amarillo">{{$pos->nombre}} {{$pos->apellido}}</h2>
                             <h3 class="tc-anaranjado" style="text-transform: uppercase;">{{$titulo}} DE {{$pos->pais->nombre}}</h3>
-                            <img src="{{$pos->url_foto}}" class="img-fluid" alt="...">
+                            <img src="img/{{$pos->url_foto}}" class="img-fluid" alt="...">
                         </div>
                     </div>
                 </div>

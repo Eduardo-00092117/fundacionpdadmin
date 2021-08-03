@@ -23,7 +23,7 @@
                 @if ($cont === 1) 
                   <div class="carousel-item active">
                     <h3 class="card-title text-color-celeste">{{$pos->titulo}}</h3>
-                    <img src="{{$pos->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$pos->url_imagen}}" class="img-fluid">
                     <div class="textoCarrusel">
                       <p class="card-text">{{$pos->descripcion}}</p>
                     </div>
@@ -34,7 +34,7 @@
                 @else
                   <div class="carousel-item">
                     <h3 class="card-title text-color-celeste">{{$pos->titulo}}</h3>
-                    <img src="{{$pos->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$pos->url_imagen}}" class="img-fluid">
                     <div class="textoCarrusel">
                       <p class="card-text">{{$pos->descripcion}}</p>
                     </div>

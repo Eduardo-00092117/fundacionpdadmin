@@ -56,7 +56,7 @@
                 <div>
                     <hr class="linea-derechos-art bg-rosado">
                     <br>
-                    <img src="{{$ninio[0]->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$ninio[0]->url_imagen}}" class="img-fluid">
                     <h2 class="tc-blanco"  style="font-weight: 200;">Las personas con discapacidad tienen derecho a:</h2>
                 </div>
                 <div>
@@ -69,7 +69,7 @@
                 <div>
                     <hr class="linea-derechos-art bg-anaranjado">
                     <br>
-                    <img src="{{$ninio[1]->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$ninio[1]->url_imagen}}" class="img-fluid">
                     <p>1. A ser protegida contra la discriminación, explotación, trato denigrante o abusivo en razón de su
                         discapacidad.</p>
                 </div>
@@ -85,7 +85,7 @@
                 <div>
                     <hr class="linea-derechos-art bg-verde">
                     <br>
-                    <img src="{{$ninio[2]->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$ninio[2]->url_imagen}}" class="img-fluid">
                     <p>2. A recibir educación con metodología adecuada que facilite su aprendizaje.</p>
                 </div>
                 <div>
@@ -99,7 +99,7 @@
                 <div>
                     <hr class="linea-derechos-art bg-celeste">
                     <br>
-                    <img src="{{$ninio[3]->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$ninio[3]->url_imagen}}" class="img-fluid">
                     <p>3. A facilidades arquitectónicas de movilidad vial y acceso a los establecimientos públicos y
                         privados con afluencia de público.</p>
                 </div>
@@ -117,7 +117,7 @@
                 <div>
                     <hr class="linea-derechos-art bg-rosado">
                     <br>
-                    <img src="{{$ninio[4]->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$ninio[4]->url_imagen}}" class="img-fluid">
                     <p>4. A su formación, rehabilitación laboral y profesional.</p>
                 </div>
                 <div>
@@ -130,7 +130,7 @@
                 <div>
                     <hr class="linea-derechos-art bg-anaranjado">
                     <br>
-                    <img src="{{$ninio[5]->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$ninio[5]->url_imagen}}" class="img-fluid">
                     <p>5. A obtener empleo y ejercer una ocupación remunerada y a no ser despedido en razón de su
                         discapacidad..</p>
                 </div>
@@ -146,7 +146,7 @@
                 <div>
                     <hr class="linea-derechos-art bg-verde">
                     <br>
-                    <img src="{{$ninio[6]->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$ninio[6]->url_imagen}}" class="img-fluid">
                     <p>6. A ser atendida por personal idóneo en su rehabilitación integral. 
                     </p>
                 </div>
@@ -160,7 +160,7 @@
                 <div>
                     <hr class="linea-derechos-art bg-celeste">
                     <br>
-                    <img src="{{$ninio[7]->url_imagen}}" class="img-fluid">
+                    <img src="img/{{$ninio[7]->url_imagen}}" class="img-fluid">
                     <p>7. A tener acceso a sistemas de becas. </p>
                 </div>
                 <div>

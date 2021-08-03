@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="col-md" id="">
-                <img src="{{$area[6]->url_imagen}}" alt="" width="100%" style="margin-top: 20px; margin-left: 50px; width: 80%; height: 90%;">
+                <img src="img/{{$area[6]->url_imagen}}" alt="" width="100%" style="margin-top: 20px; margin-left: 50px; width: 80%; height: 90%;">
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@
     <div id="moviles">
         <div class="col etapaInicial">
             <div class="col-md" id="">
-                <img src="{{$area[6]->url_imagen}}" alt="" width="100%" style="margin-top: 20px; margin-left: 50px; width: 80%; height: 90%;">
+                <img src="img/{{$area[6]->url_imagen}}" alt="" width="100%" style="margin-top: 20px; margin-left: 50px; width: 80%; height: 90%;">
             </div>
             <div class="col-md" id="aLenguaje">
                 <div>

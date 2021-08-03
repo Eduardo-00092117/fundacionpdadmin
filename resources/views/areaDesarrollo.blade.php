@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="col-md" id="">
-                <img src="{{$area[5]->url_imagen}}" alt="">
+                <img src="img/{{$area[5]->url_imagen}}" alt="">
             </div>
         </div>
     </div>
