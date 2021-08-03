@@ -50,22 +50,22 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[2]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[2]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[3]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[3]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[4]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[4]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[5]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[5]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
             </div>

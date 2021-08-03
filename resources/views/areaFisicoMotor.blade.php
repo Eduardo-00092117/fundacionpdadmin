@@ -38,7 +38,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[6]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[6]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">
@@ -52,7 +52,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[7]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[7]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">
@@ -69,7 +69,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[8]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[8]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">
@@ -83,7 +83,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[9]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[9]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">
@@ -97,7 +97,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[10]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[10]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">

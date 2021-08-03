@@ -68,7 +68,7 @@ return [
         'voyager' => [
             'driver' => 'local',
             'root' => public_path('/img'),
-            'url' => env('IMAGE_URL').'/img',
+            'url' => env('IMAGE_URL'),
             'visibility' => 'public',
         ],
 

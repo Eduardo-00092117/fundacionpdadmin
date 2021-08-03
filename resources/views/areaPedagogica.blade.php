@@ -39,7 +39,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[17]->url_imagen}}" alt="" class="img-fluid" id="prueba">
+                        <img src="img/{{$subarea[17]->url_imagen}}" alt="" class="img-fluid" id="prueba">
                     </div>
                 </div>
                 <div class="row">
@@ -53,7 +53,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[18]->url_imagen}}" alt="" class="img-fluid">
+                        <img src="img/{{$subarea[18]->url_imagen}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="row">
@@ -70,7 +70,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[19]->url_imagen}}" alt="" class="img-fluid">
+                        <img src="img/{{$subarea[19]->url_imagen}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="row">
@@ -84,7 +84,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[20]->url_imagen}}" alt="" class="img-fluid">
+                        <img src="img/{{$subarea[20]->url_imagen}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="row">
@@ -98,7 +98,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[21]->url_imagen}}" alt="" class="img-fluid">
+                        <img src="img/{{$subarea[21]->url_imagen}}" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="row">
