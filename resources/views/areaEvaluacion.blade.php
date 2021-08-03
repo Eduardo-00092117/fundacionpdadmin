@@ -40,12 +40,12 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[0]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[0]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[1]->url_imagen}}" alt="" width="100%">
+                        <img src="img/{{$subarea[1]->url_imagen}}" alt="" width="100%">
                     </div>
                 </div>
                 <div class="row">

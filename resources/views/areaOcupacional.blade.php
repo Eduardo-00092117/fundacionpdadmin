@@ -39,7 +39,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[11]->url_imagen}}" alt="" class="img-fluid" width="100%">
+                        <img src="img/{{$subarea[11]->url_imagen}}" alt="" class="img-fluid" width="100%">
                     </div>
                 </div>
                 <div class="row">
@@ -53,7 +53,7 @@
             <div>
                 <div class="row">
                     <div class="col">
-                        <img src="{{$subarea[12]->url_imagen}}" alt="" class="img-fluid" width="100%">
+                        <img src="img/{{$subarea[12]->url_imagen}}" alt="" class="img-fluid" width="100%">
                     </div>
                 </div>
                 <div class="row">
