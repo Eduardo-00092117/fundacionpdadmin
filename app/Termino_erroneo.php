@@ -10,6 +10,6 @@ class Termino_erroneo extends Model
     protected $fillable = ['nombre', 'significado', 'fkTerminoCorrecto'];
 
     public function termino_correcto(){
-        return $this->belongsTo('App\Termino_correcto', 'fkTerminoCorrecto', 'idTerminoCorrecto');
+        return $this->belongsTo('App\Termino_correcto', 'fkTerminoCorrecto', 'id');
     }
 }

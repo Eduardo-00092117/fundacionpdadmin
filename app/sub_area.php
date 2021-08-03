@@ -10,6 +10,6 @@ class sub_area extends Model
     protected $fillable = ['titulo', 'subtitulo', 'url_imagen', 'descripcion', 'orden', 'fkAreaTrabajo'];
 
     public function area_trabajo(){
-        return $this->belongsTo('App\Area_trabajo', 'fkAreaTrabajo', 'idAreaTrabajo');
+        return $this->belongsTo('App\Area_trabajo', 'fkAreaTrabajo', 'id');
     }
 }
