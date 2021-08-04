@@ -12,7 +12,8 @@
                 </div>
             </div>
             <div class="col-md">
-                <img src="{{URL::asset('img/areaFisicoMotor/EDITADO-42.jpg')}}">
+                <!--<img src="{{URL::asset('img/areaFisicoMotor/EDITADO-42.jpg')}}">-->
+                <img src="img/{{$area[1]->url_imagen}}" alt="">
             </div>
         </div>
     </div>
@@ -20,7 +21,7 @@
     <div id="moviles">
         <div class="col etapaInicial">
             <div class="col-md">
-                <img src="{{URL::asset('img/areaFisicoMotor/EDITADO-42.jpg')}}">
+                <img src="img/{{$area[1]->url_imagen}}" alt="">
             </div>
             <div class="col-md" id="aFisico">
                 <div>
