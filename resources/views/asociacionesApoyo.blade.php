@@ -50,9 +50,11 @@
                             </div>
                             <div>
                                 <hr class="linea-asociaciones-card">
-                                <div class="asociaciones-redes1">
-                                    <i class="fab fa-facebook"></i>
-                                </div>
+                                @if ($pos->url_facebook != null)
+                                    <div class="asociaciones-redes1">
+                                        <a href="{{$pos->url_facebook}}"><i class="fab fa-facebook"></i></a>
+                                    </div>
+                                @endif
                                 @if ($pos->telefono != null)
                                     <div class="asociaciones-redes2">
                                         <i class="fas fa-phone"></i> {{$pos->telefono}}
