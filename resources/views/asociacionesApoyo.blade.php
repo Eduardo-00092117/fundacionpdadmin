@@ -16,17 +16,21 @@
                                     <h5>{{$pos->nombre}}</h5>
                                 </div>
                                 <div>
-                                    <img src="{{$pos->url_logo}}" class="img-thumbnail rounded mx-auto d-block">
+                                    <img src="img/{{$pos->url_logo}}" class="img-thumbnail rounded mx-auto d-block">
                                     <p class="card-text">{{$pos->descripcion}}</p>
                                 </div>
                                 <div>
                                     <hr class="linea-asociaciones-card">
-                                    <div class="asociaciones-redes1">
-                                        <i class="fab fa-facebook"></i>
-                                    </div>
-                                    <div class="asociaciones-redes2">
-                                        <i class="fas fa-phone"></i> {{$pos->telefono}}
-                                    </div>
+                                    @if ($pos->url_facebook != null)
+                                        <div class="asociaciones-redes1">
+                                            <a href="{{$pos->url_facebook}}"><i class="fab fa-facebook"></i></a>
+                                        </div>
+                                    @endif
+                                    @if ($pos->telefono != null)
+                                        <div class="asociaciones-redes2">
+                                            <i class="fas fa-phone"></i> {{$pos->telefono}}
+                                        </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -41,7 +45,7 @@
                                 <h5>{{$pos->nombre}}</h5>
                             </div>
                             <div>
-                                <img src="{{$pos->url_logo}}" class="img-thumbnail rounded mx-auto d-block">
+                                <img src="img/{{$pos->url_logo}}" class="img-thumbnail rounded mx-auto d-block">
                                 <p class="card-text">{{$pos->descripcion}}</p>
                             </div>
                             <div>
@@ -49,9 +53,11 @@
                                 <div class="asociaciones-redes1">
                                     <i class="fab fa-facebook"></i>
                                 </div>
-                                <div class="asociaciones-redes2">
-                                    <i class="fas fa-phone"></i> {{$pos->telefono}}
-                                </div>
+                                @if ($pos->telefono != null)
+                                    <div class="asociaciones-redes2">
+                                        <i class="fas fa-phone"></i> {{$pos->telefono}}
+                                    </div>
+                                @endif
                             </div>
                         </div>
                     </div>

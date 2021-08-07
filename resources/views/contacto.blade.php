@@ -4,6 +4,9 @@
     .sup{
         display: none;
     }
+    body{
+    background-color: #b2cd36;
+    }
 </style>
 <div class="contacto">
     <div class="container-fluid" id="contact-container">

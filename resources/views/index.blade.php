@@ -18,21 +18,21 @@
       $cont2 = 1;
     @endphp
     @foreach($areas as $pos)
-      @if ($pos->idAreaTrabajo != 1 &&  $pos->idAreaTrabajo != 7)
+      @if ($pos->id != 1 &&  $pos->id != 7  && $pos->id != 8)
         @if ($cont2 === 1) 
-        <div class="carousel-item active">
-          <div align="center row">
-            <div style="display:flex; align-items: center;">
-              <img src="img/{{$pos->url_imagen}}" class="d-block" alt="...">
-            </div>
-            <div>
+          <div class="carousel-item active">
+            <div align="center row">
+              <div style="display:flex; align-items: center;">
+                <img src="img/{{$pos->url_imagen}}" class="d-block" alt="...">
+              </div>
               <div>
-                <h2 class="tc-celeste" style="font-weight: 200;">{{$pos->nombre}}</h2>
-                <p>{{$pos->descripcion}}</p>
+                <div>
+                  <h2 class="tc-celeste" style="font-weight: 200;">{{$pos->nombre}}</h2>
+                  <p>{{$pos->descripcion}}</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         @else
           <div class="carousel-item">
             <div align="center row">

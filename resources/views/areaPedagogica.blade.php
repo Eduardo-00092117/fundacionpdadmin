@@ -44,7 +44,8 @@
                 </div>
                 <div class="row">
                     <div class="col" id="texto1">
-                        <p>{{$subarea[17]->titulo}}<span>{{$subarea[17]->subtitulo}}</span></p>
+                        <p>{{$subarea[17]->titulo}}</p>
+                        <p>{{$subarea[17]->subtitulo}}</p>
                     </div>
                 </div>
             </div>
@@ -58,7 +59,8 @@
                 </div>
                 <div class="row">
                     <div class="col" id="texto2">
-                        <p>{{$subarea[18]->titulo}}<span>{{$subarea[18]->subtitulo}}</span></p>
+                        <p>{{$subarea[18]->titulo}}</p>
+                        <p>{{$subarea[18]->subtitulo}}</p>
                     </div>
                 </div>
             </div>
@@ -75,7 +77,8 @@
                 </div>
                 <div class="row">
                     <div class="col" id="texto3">
-                        <p>{{$subarea[19]->titulo}}<span>{{$subarea[19]->subtitulo}}</span></p>
+                        <p>{{$subarea[19]->titulo}}</p>
+                        <p>{{$subarea[19]->subtitulo}}</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +92,8 @@
                 </div>
                 <div class="row">
                     <div class="col" id="texto4">
-                        <p>{{$subarea[20]->titulo}}<span>{{$subarea[20]->subtitulo}}</span></p>
+                        <p>{{$subarea[20]->titulo}}</p>
+                        <p>{{$subarea[20]->subtitulo}}</p>
                     </div>
                 </div>
             </div>
@@ -103,7 +107,8 @@
                 </div>
                 <div class="row">
                     <div class="col" id="texto5">
-                        <p>{{$subarea[21]->titulo}}<span>{{$subarea[21]->subtitulo}}</span></p>
+                        <p>{{$subarea[21]->titulo}}</p>
+                        <p>{{$subarea[21]->subtitulo}}</p>
                     </div>
                 </div>
             </div>

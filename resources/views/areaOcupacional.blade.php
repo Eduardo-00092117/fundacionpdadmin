@@ -44,7 +44,8 @@
                 </div>
                 <div class="row">
                     <div class="col" id="texto1">
-                        <p>{{$subarea[11]->titulo}}<span>{{$subarea[11]->subtitulo}}</span></p>
+                        <p>{{$subarea[11]->titulo}}</p>
+                        <p>{{$subarea[11]->subtitulo}}</p>
                     </div>
                 </div>
             </div>
@@ -58,7 +59,8 @@
                 </div>
                 <div class="row">
                     <div class="col" id="texto2">
-                        <p>{{$subarea[12]->titulo}}<span>{{$subarea[12]->subtitulo}}</span></p>
+                        <p>{{$subarea[12]->titulo}}</p>
+                        <p>{{$subarea[12]->subtitulo}}</p>
                     </div>
                 </div>
             </div>

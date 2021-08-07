@@ -55,13 +55,15 @@
   color: #fbbc35;
   font-family: "Fredoka One", cursive;
   font-size: 20px;
+  margin: 0;
+  line-height: 30px;
 }
 
-#texto1 span {
+#texto1 p:nth-child(2) {
   font-size: 30px;
-  margin-top: -2%;
   padding: 0;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 #texto2 p {
@@ -72,13 +74,15 @@
   color: #b2cd36;
   font-family: "Fredoka One", cursive;
   font-size: 20px;
+  margin: 0;
+  line-height: 30px;
 }
 
-#texto2 span {
+#texto2 p:nth-child(2) {
   font-size: 30px;
-  margin-top: -2%;
   padding: 0;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 #texto3 p {
@@ -90,13 +94,14 @@
   font-family: "Fredoka One", cursive;
   font-size: 20px;
   margin: 0;
+  line-height: 30px;
 }
 
-#texto3 span {
+#texto3 p:nth-child(2) {
   font-size: 30px;
-  margin-top: -2%;
   padding: 0;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 #texto4 p {
@@ -108,13 +113,14 @@
   font-family: "Fredoka One", cursive;
   font-size: 20px;
   margin: 0;
+  line-height: 30px;
 }
 
-#texto4 span {
+#texto4 p:nth-child(2) {
   font-size: 30px;
-  margin-top: -2%;
   padding: 0;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 #texto5 p {
@@ -126,13 +132,14 @@
   font-family: "Fredoka One", cursive;
   font-size: 20px;
   margin: 0;
+  line-height: 30px;
 }
 
-#texto5 span {
+#texto5 p:nth-child(2) {
   font-size: 30px;
-  margin-top: -2%;
   padding: 0;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 #texto6 p {
@@ -144,13 +151,14 @@
   font-family: "Fredoka One", cursive;
   font-size: 20px;
   margin: 0;
+  line-height: 30px;
 }
 
-#texto6 span {
+#texto6 p:nth-child(2) {
   font-size: 30px;
-  margin-top: -2%;
   padding: 0;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 
@@ -294,8 +302,9 @@
 }
 
 .card-text {
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: justify;
 }
 
 .textoCarrusel {

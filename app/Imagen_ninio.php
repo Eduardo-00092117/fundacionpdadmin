@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Imagen_ninio extends Model
 {
     protected $table = 'imagen_ninio';
-    protected $fillable = ['orden', 'nombre', 'apellido', 'url_imagen'];
+    protected $fillable = ['nombre', 'apellido', 'url_imagen'];
 }

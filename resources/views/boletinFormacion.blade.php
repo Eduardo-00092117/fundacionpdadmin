@@ -9,7 +9,7 @@
               <a class="nav-link" href="/noticias">Noticias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/formacion">Formación</a>
+              <a class="nav-link active" href="/formacion">Información</a>
             </li>
           </ul>
         </div>
@@ -25,7 +25,10 @@
                     <h3 class="card-title text-color-celeste">{{$pos->titulo}}</h3>
                     <img src="img/{{$pos->url_imagen}}" class="img-fluid">
                     <div class="textoCarrusel">
-                      <p class="card-text">{{$pos->descripcion}}</p>
+                      <p class="card-text">{{$pos->parrafo1}}</p>
+                      <p class="card-text">{{$pos->parrafo2}}</p>
+                      <p class="card-text">{{$pos->parrafo3}}</p>
+                      <p class="card-text">{{$pos->parrafo4}}</p>
                     </div>
                   </div>
                     @php
@@ -36,7 +39,10 @@
                     <h3 class="card-title text-color-celeste">{{$pos->titulo}}</h3>
                     <img src="img/{{$pos->url_imagen}}" class="img-fluid">
                     <div class="textoCarrusel">
-                      <p class="card-text">{{$pos->descripcion}}</p>
+                      <p class="card-text">{{$pos->parrafo1}}</p>
+                      <p class="card-text">{{$pos->parrafo2}}</p>
+                      <p class="card-text">{{$pos->parrafo3}}</p>
+                      <p class="card-text">{{$pos->parrafo4}}</p>
                     </div>
                   </div>
                 @endif

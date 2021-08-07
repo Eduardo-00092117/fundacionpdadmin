@@ -38,7 +38,7 @@ class MainController extends Controller
 
     public function index2()
     {
-        $ninio = Imagen_ninio::orderBy('orden','ASC')->paginate(8);
+        $ninio = Imagen_ninio::all();
         $datos = Datos_generales::all();
 
         return view('leyesderechos', [
@@ -127,7 +127,7 @@ class MainController extends Controller
 
     public function index10()
     {
-        $erroneo = Termino_erroneo::with('termino_correcto')->get();
+        $erroneo = Termino_erroneo::with('termino_correcto')->orderBy('fkTerminoCorrecto', 'ASC')->get();
         $datos = Datos_generales::all();
         $correcto = Termino_correcto::all();
 

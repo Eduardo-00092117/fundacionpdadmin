@@ -139,6 +139,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  /*----------------------------------Noticias e informacion----------------------*/
+  #boletin{
+    width: 100%;
+  }
+
+  .card-text{
+    margin: 0;
+    text-align: justify;
+  }
+
   /*----------------------------------Terminos correctos--------------------------*/
   .container-comunicar h1, 
   .container-significado h1,
