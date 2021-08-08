@@ -21,6 +21,17 @@
   width: 75%;
   margin: 1%;
 }
+
+.titulo-anaranjado-sindrome{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-anaranjado-sindrome h2{
+  margin: 0;
+}
+
 /*------------------Terminos correctos------------------*/
 .container-inclusion h1{
   font-size: 3em;

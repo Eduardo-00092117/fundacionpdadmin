@@ -65,8 +65,8 @@
 
             </div>
             <div class="row bg-gris-claro" style="margin-top: 2%;">
-                <div class="col-md-3">
-                    <h2 class="tc-anaranjado" style="margin-top: 5%;">¡Causa!</h2>
+                <div class="col-md-3 titulo-anaranjado-sindrome">
+                    <h2 class="tc-anaranjado">¡CAUSA!</h2>
                 </div>
                 <div class="col-md-8 align-self-center">
                     <p id="t_cuerpo">Hasta la fecha se desconoce la razón por la que los cromosomas se dividen de esta manera al 
@@ -177,8 +177,8 @@
             </div>
  
             <div class="row bg-gris-claro" style="margin-top: 2%;">
-                <div class="col-md-3">
-                    <h2 class="tc-anaranjado" style="margin-top: 5%;">¡NOTA!</h2>
+                <div class="col-md-3 titulo-anaranjado-sindrome">
+                    <h2 class="tc-anaranjado">¡NOTA!</h2>
                 </div>
                 <div class="col-md-8 align-self-center">
                     <p id="t_cuerpo">Algunas personas con síndrome de Down, pueden presentar otras características 
@@ -256,8 +256,8 @@
 
             </div>
             <div class="row" style="padding-top: 1%;">
-                <div class="col-md-3">
-                    <h2 class="tc-anaranjado" style="margin-top: 5%;">¡NOTA!</h2>
+                <div class="col-md-3 titulo-anaranjado-sindrome">
+                    <h2 class="tc-anaranjado">¡NOTA!</h2>
                 </div>
                 <div class="col-md-8" style="text-align: justify;">
                     <p>Todas estas características de salud varían de una persona a otra. 

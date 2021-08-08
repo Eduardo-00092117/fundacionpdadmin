@@ -132,7 +132,7 @@
                     <br>
                     <img src="img/{{$ninio[5]->url_imagen}}" class="img-fluid">
                     <p>5. A obtener empleo y ejercer una ocupación remunerada y a no ser despedido en razón de su
-                        discapacidad..</p>
+                        discapacidad.</p>
                 </div>
                 <div>
                     <hr class="linea-derechos-art bg-anaranjado">

@@ -63,7 +63,7 @@
                                 <tr>
                                     <td>{{$pos->nombre}}</td>
                                     <td>{{$pos->significado}}</td>
-                                    <td rowspan="{{$c[$cont2]}}"><div>{{$correcto[$cont2]->nombre}}</div></td>
+                                    <td rowspan="{{$c[$cont2]}}">{{$correcto[$cont2]->nombre}}</td>
                                 </tr>
                                 @php
                                     $cont = 1;
@@ -82,7 +82,7 @@
                             <tr>
                                 <td>{{$pos->nombre}}</td>
                                 <td>{{$pos->significado}}</td>
-                                <td rowspan="{{$c[$cont2]}}"><div>{{$correcto[$cont2]->nombre}}</div></td>
+                                <td rowspan="{{$c[$cont2]}}">{{$correcto[$cont2]->nombre}}</td>
                             </tr>
                         @endif
                     @endforeach
