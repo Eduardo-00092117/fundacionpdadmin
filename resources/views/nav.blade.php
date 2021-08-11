@@ -24,7 +24,7 @@
 
 
     <link href = "{{URL::asset('css/areaTrabajo.css')}}" rel="stylesheet">
-    <link href = "{{URL::asset('css/catalogo.css')}}" rel="stylesheet">
+    <link href = "{{URL::asset('css/Catalogo.css')}}" rel="stylesheet">
     <link href = "{{URL::asset('css/index.css')}}" rel="stylesheet">
     <link href = "{{URL::asset('css/sindromeDown.css')}}" rel="stylesheet">
     <link href = "{{URL::asset('css/quienesSomos.css')}}" rel="stylesheet">
