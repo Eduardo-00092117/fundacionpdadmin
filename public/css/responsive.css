@@ -384,6 +384,10 @@
     margin: 0;
   }
 
+  .linea-asociacion{
+    width: 100%;
+  }
+
   /*---------------------------------Leyes y derechos--------------------------*/
   .container-leyes h1{
     font-size: 2.5em;
