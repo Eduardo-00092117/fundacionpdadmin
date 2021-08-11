@@ -378,6 +378,11 @@
 }
 
 @media screen and (max-width: 540px) {
+  /*--------------------Asociaciones de apoyo-------------------------------*/
+  .container-asociacion{
+    width: 100%;
+    margin: 0;
+  }
 
   /*---------------------------------Leyes y derechos--------------------------*/
   .container-leyes h1{
