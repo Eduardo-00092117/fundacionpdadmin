@@ -101,4 +101,4 @@
 </div>
 <br>
 
-<@include('footer')
+@include('footer')
