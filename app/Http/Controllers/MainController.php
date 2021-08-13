@@ -31,7 +31,7 @@ class MainController extends Controller
 
         return view('index', [
             'patrocinadores' => $patrocinadores,
-            'areas' => $areas,
+            'area' => $areas,
             'datos' => $datos
          ]);
     }
@@ -40,9 +40,11 @@ class MainController extends Controller
     {
         $ninio = Imagen_ninio::all();
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('leyesderechos', [
             'ninio' => $ninio,
+            'area' => $areas,
             'datos' => $datos
          ]);
     }
@@ -51,9 +53,11 @@ class MainController extends Controller
     {
         $junta = junta_directiva::all();
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('juntaDirectiva', [
             'junta' => $junta,
+            'area' => $areas,
             'datos' => $datos
          ]);
     }    
@@ -77,10 +81,12 @@ class MainController extends Controller
     {
         $asociacion = asociacion::all();
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('asociacionesApoyo', [
             'asociacion_nacional' => $asociacion->where('nacional_internacional', 0),
             'asociacion_internacional' => $asociacion->where('nacional_internacional', 1),
+            'area' => $areas,
             'datos' => $datos
          ]);
     } 
@@ -89,9 +95,11 @@ class MainController extends Controller
     {
         $noticia = noticia::all();
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('boletinNoticias', [
             'noticia' => $noticia->where('noticia_formacion', 0),
+            'area' => $areas,
             'datos' => $datos
          ]);
     } 
@@ -100,9 +108,11 @@ class MainController extends Controller
     {
         $formacion = noticia::all();
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('boletinFormacion', [
             'formacion' => $formacion->where('noticia_formacion', 1),
+            'area' => $areas,
             'datos' => $datos
          ]);
     } 
@@ -110,18 +120,22 @@ class MainController extends Controller
     public function index8()
     {
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('informacionLegal', [
-            'datos' => $datos
+            'datos' => $datos,
+            'area' => $areas
          ]);
     } 
 
     public function index9()
     {
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('contacto', [
-            'datos' => $datos
+            'datos' => $datos,
+            'area' => $areas
          ]);
     } 
 
@@ -130,10 +144,12 @@ class MainController extends Controller
         $erroneo = Termino_erroneo::with('termino_correcto')->orderBy('fkTerminoCorrecto', 'ASC')->get();
         $datos = Datos_generales::all();
         $correcto = Termino_correcto::all();
+        $areas = Area_trabajo::all();
 
         return view('terminosCorrectos', [
             'erroneo' => $erroneo,
             'datos' => $datos,
+            'area' => $areas,
             'correcto' => $correcto
          ]);
     }  
@@ -141,27 +157,33 @@ class MainController extends Controller
     public function index11()
     {
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('mantenimiento', [
-            'datos' => $datos
+            'datos' => $datos,
+            'area' => $areas
          ]);
     }  
 
     public function index13()
     {
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('sindromeDown', [
-            'datos' => $datos
+            'datos' => $datos,
+            'area' => $areas
          ]);
     }  
 
     public function index12()
     {
         $datos = Datos_generales::all();
+        $areas = Area_trabajo::all();
 
         return view('quienesSomos', [
-            'datos' => $datos
+            'datos' => $datos,
+            'area' => $areas
          ]);
     }  
 

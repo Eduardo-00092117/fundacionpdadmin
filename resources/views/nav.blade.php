@@ -74,7 +74,7 @@
                             class="color-botton2">de Down</span>
                     </a>
                     <div class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="sd_Down">Hablemos sobre Síndrome <br> de Down</a>
+                        <a class="dropdown-item" href="sd_Down">Hablemos sobre Síndrome de Down</a>
                         <a class="dropdown-item" href="terminosCorrectos">Términos Correctos</a>
                         <a class="dropdown-item" href="leyes">Leyes y derechos</a>
                     </div>
@@ -88,10 +88,10 @@
                             class="color-botton2">somos?</span>
                     </a>
                     <div class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item espaciado2" href="/quienes_somos">Historia, objetivo, misión, <br> visión, valores</a>
+                        <a class="dropdown-item espaciado2" href="/quienes_somos">Historia, objetivo, misión, visión, valores</a>
                         <a class="dropdown-item" href="/junta">Junta Directiva</a>
                         <a class="dropdown-item" href="/legal">Constitución Legal</a>
-                        <a class="dropdown-item" href="/mantenimiento">Asociaciones de <br>apoyo</a>
+                        <a class="dropdown-item" href="/mantenimiento">Asociaciones de apoyo</a>
                         <a class="dropdown-item" href="/voluntariado">Voluntariado</a>
                     </div>
                 </li>
@@ -104,13 +104,13 @@
                             class="color-botton2">trabajo</span>
                     </a>
                     <div class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/aEvaluacion">Evaluación: Nuevo Ingreso</a>
-                        <a class="dropdown-item" href="/aFiMotor">Área de desarrollo <br> físico y motor</a>
-                        <a class="dropdown-item" href="/aOcupacional">Área ocupacional</a>
-                        <a class="dropdown-item" href="/aLenguaje">Área de lenguaje</a>
-                        <a class="dropdown-item" href="/aPed">Área pedagógica</a>
-                        <a class="dropdown-item espaciado" href="/aDesarrollo">Área de desarrollo integral <br> en adolescentes y adultos</a>
-                        <a class="dropdown-item" href="/aPsicologica">Área psicológica</a>
+                        <a class="dropdown-item" href="/aEvaluacion">{{$area[0]->nombre}}</a>
+                        <a class="dropdown-item" href="/aFiMotor">{{$area[1]->nombre}}</a>
+                        <a class="dropdown-item" href="/aOcupacional">{{$area[2]->nombre}}</a>
+                        <a class="dropdown-item" href="/aLenguaje">{{$area[3]->nombre}}</a>
+                        <a class="dropdown-item" href="/aPed">{{$area[4]->nombre}}</a>
+                        <a class="dropdown-item espaciado" href="/aDesarrollo">{{$area[5]->nombre}}</a>
+                        <a class="dropdown-item" href="/aPsicologica">{{$area[6]->nombre}}</a>
                     </div>
                 </li>
                 <hr class="linea-menu">

@@ -17,7 +17,7 @@
     @php
       $cont2 = 1;
     @endphp
-    @foreach($areas as $pos)
+    @foreach($area as $pos)
       @if ($pos->id != 1 &&  $pos->id != 7  && $pos->id != 8)
         @if ($cont2 === 1) 
           <div class="carousel-item active">
@@ -181,17 +181,5 @@
     </div>
   </div>
 </div>
-
-<script>
-    var imagenes = document.querySelectorAll('.galeria-princial img');
-    imagenes.forEach(function(images) {
-        var img = new Image();
-        img.onload = function() {
-            images.width = 900;
-            images.heigth = Math.floor(900 * this.width / this.height);
-        }
-        img.src = images.src; 
-    });
-</script>
 
 @include('footer')

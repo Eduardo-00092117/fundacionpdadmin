@@ -3,6 +3,11 @@ p{
 }
 
 /*-------------------------Index-----------------------*/
+
+.carousel-indicators{
+  z-index: 0;
+}
+
 .galeria-princial .carousel-item > div{
   display: flex;
   justify-content: space-between;
@@ -213,4 +218,3 @@ p{
 .sindrome1 #index-text2 {
   font-family: "Fredoka One", cursive;
 }
-

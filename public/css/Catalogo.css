@@ -432,8 +432,10 @@ footer bgimg{
 .sub-menu a{
   margin: 5px;
   padding: 15px;
-  width: 98%;
   color: rgb(32, 32, 32);
+  height:auto;
+  width:220px;
+  white-space:normal;
 }
 
 

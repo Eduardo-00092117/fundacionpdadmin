@@ -12,7 +12,7 @@
         <div id="moviles">
             <div class="tCModal">
                 <button type="button" class="btn" id="boton" data-toggle="modal" data-target="#p1">
-                    <img src="{{URL::asset('img/Voluntariado/paso1.png')}}" alt="">
+                    <img src="{{URL::asset('img/voluntariado/paso1.png')}}" alt="">
                 </button>
                 <!-- Modal terminos erroneos -->
                 <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -38,7 +38,7 @@
             </div>
             <div class="tCModal">
                 <button type="button" class="btn" id="boton" data-toggle="modal" data-target="#p2">
-                    <img src="{{URL::asset('img/Voluntariado/paso2.png')}}" alt="">
+                    <img src="{{URL::asset('img/voluntariado/paso2.png')}}" alt="">
                 </button>
                 <!-- Modal terminos erroneos -->
                 <div class="modal fade" id="p2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -63,7 +63,7 @@
             </div>
             <div class="tCModal">
                 <button type="button" class="btn" id="boton" data-toggle="modal" data-target="#p3">
-                    <img src="{{URL::asset('img/Voluntariado/paso3.png')}}" alt="">
+                    <img src="{{URL::asset('img/voluntariado/paso3.png')}}" alt="">
                 </button>
                 <!-- Modal terminos erroneos -->
                 <div class="modal fade" id="p3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -88,7 +88,7 @@
             </div>
             <div class="tCModal">
                 <button type="button" class="btn" id="boton" data-toggle="modal" data-target="#p4">
-                    <img src="{{URL::asset('img/Voluntariado/paso4.png')}}" alt="">
+                    <img src="{{URL::asset('img/voluntariado/paso4.png')}}" alt="">
                 </button>
                 <!-- Modal terminos erroneos -->
                 <div class="modal fade" id="p4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
