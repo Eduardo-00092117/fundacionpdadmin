@@ -138,11 +138,78 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  /*----------------------------------Index-----------------------------------*/
+@media screen and (max-width: 850px){
+  /*---------------------Menu-----------------------*/
+  .logo-menu {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .menu-contactanos {
+    margin-top: 0px;
+  }
+
+  .logo-menu img {
+    width: 180px;
+    height: 50px;
+    margin-left: -30px;
+  }
+
+  .sup {
+    display: none;
+  }
+
+  .linea-menu-responsive {
+    border-top: 1px white dotted;
+    width: 90%;
+    margin-top: 15px;
+    display: none;
+  }
+
+  .linea-menu {
+    display: none;
+  }
+
+  .espaciado br:nth-child(1) {
+    display: inline;
+  }
+
+  .espaciado2 br {
+    display: inline;
+  }
+
+  .color-botton1 {
+    color: white;
+  }
+
+  .color-botton2 {
+    color: white;
+  }
+
+  .menu-admin {
+    background: #0ca3c2;
+    height: auto;
+    padding: 0 20px 20px 0px;
+  }
+
+  .link-menu {
+    background-color: #0a7e96;
+    padding: 20px;
+    margin-left: 10px;
+    border: 1px dotted #fbbc35;
+    text-align: left;
+  }
+
+  .link-menu br {
+    display: none;
+  }
+
   .sub-menu a{
     width: 100%;
   }
+}
+
+@media screen and (max-width: 768px) {
 
   /*----------------------------------Noticias e informacion----------------------*/
   #boletin{
@@ -150,11 +217,16 @@
   }
 
   .card-text{
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
     text-align: justify;
   }
 
   /*----------------------------------Terminos correctos--------------------------*/
+  .container-comunicar{
+    margin-bottom: 0;
+  }
+
   .container-comunicar h1, 
   .container-significado h1,
   .container-tiposD h1,
@@ -256,6 +328,15 @@
     font-size: 3em;
   }
 
+  .sindromedown-gris{
+    padding-left: 20px;
+  }
+
+  .frmda > div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
   /*--------------------Index-----------------------------*/
   #container-secciones h1, #container-valores div h1, .container-redes h1, .container-sindrome-index h1, 
   #container-apoyos-index h1 {
@@ -275,79 +356,7 @@
     font-size: 2em;
   }
 
-  /*---------------------Menu-----------------------*/
-  .logo-menu {
-    height: 50px;
-    margin-bottom: 10px;
-  }
-
-  .menu-contactanos {
-    margin-top: 0px;
-  }
-
-  .logo-menu img {
-    width: 180px;
-    height: 50px;
-    margin-left: -30px;
-  }
-
-  .menu-admin {
-    background: #0ca3c2;
-    height: auto;
-    padding: 0 20px 20px 0px;
-  }
-
-  .sup {
-    display: none;
-  }
-
-  .linea-menu-responsive {
-    border-top: 1px white dotted;
-    width: 90%;
-    margin-top: 15px;
-    display: none;
-  }
-
-  .linea-menu {
-    display: none;
-  }
-
-  .link-menu {
-    background-color: #0a7e96;
-    padding: 20px;
-    margin-left: 10px;
-    border: 1px dotted #fbbc35;
-    text-align: left;
-  }
-
-  .link-menu br {
-    display: none;
-  }
-
-  .espaciado br:nth-child(1) {
-    display: inline;
-  }
-
-  .espaciado2 br {
-    display: inline;
-  }
-
-  .color-botton1 {
-    color: white;
-  }
-
-  .color-botton2 {
-    color: white;
-  }
-
   /*----------------Quienes somos-------------------*/
-  #desktop{
-    display: none;
-  }
-
-  #moviles{
-    display: inline;
-  }
 
   .Mmodal{
     margin: 1%;
@@ -377,7 +386,6 @@
   /*--------------------------------Terminos correctos--------------------------*/
   .tCModal{
     text-align: center;
-    margin: 2%;
   }
 
 }
@@ -417,6 +425,14 @@
     margin-top: 10px;
   }
 
+  #desktop{
+    display: none;
+  }
+
+  #moviles{
+    display: inline;
+  }
+
   /*---------------------------------Junta directiva y constitucion legal--------------------------*/
   .container-junta h1, .info-legal h1{
     font-size: 2em;
@@ -432,6 +448,10 @@
    }
 
    /*----------------------------------Hablemos de sindrome down----------------------------------*/
+   .sindromedown-gris{
+     padding: 15px 0px 15px 0px;
+   }
+
    .sDContainer h1{
     font-size: 3em;
   }
@@ -448,18 +468,13 @@
     width: 100%;
   }
 
-  .frmda > div{
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-
   .tituloaManosPies{
     margin-bottom: 10px;
     margin-top: 10px;
   }
 
   .sDContainer{
-    margin-top: 10px;
+    padding: 15px 0px 15px 0px;
   }
 
   .sDContainer hr{
@@ -521,9 +536,32 @@
   #qSomos h3, #vision h3, #mision h3{
     font-size: 2.5em;
   } 
+
+  /*-----------------------Contacto---------------------------------*/
+  .info form, #mapa{
+    margin-top: 30px;
+    width: 100%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 415px) {
+  /*-----------------------------Mision, vision, objetivo, etc---------------------*/
+  .qSContainer hr{
+    width: 100%;
+  }
+
+  .qSContainer h1{
+    font-size: 3em;
+    margin-top: 10px;
+  }
+
+  .textoHistoria{
+    padding-right: 0px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
   /*---------------------------------Terminos correctos--------------------------*/
   .container-comunicar h1, 
   .container-significado h1,

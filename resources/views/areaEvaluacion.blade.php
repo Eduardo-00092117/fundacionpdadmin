@@ -88,7 +88,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[0]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[0]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -113,7 +113,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[1]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[1]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -138,7 +138,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[2]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[2]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -163,7 +163,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[3]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[3]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -188,7 +188,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[4]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[4]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -213,7 +213,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[5]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[5]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

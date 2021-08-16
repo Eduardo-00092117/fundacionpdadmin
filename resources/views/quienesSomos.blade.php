@@ -23,7 +23,7 @@
         <h1 class="tc-celeste">HISTORIA</h1>
     
         <hr class="linea-multicolor" width="70%" style="height: 8px;">
-        <img src="{{URL::asset('img/quienesSomos/Logo-FPD_clean.png')}}">
+        <img style="width: initial;" src="{{URL::asset('img/quienesSomos/Logo-FPD_clean.png')}}">
         <p class="textoHistoria">Conscientes de la necesidad y dificultades que se anteponen a una persona con síndrome de Down, un grupo de padres que tenían hijos con este síndrome, construyen, en 2008, lo que somos ahora: Fundación Paraíso Down. Desde entonces, nuestro objetivo  ha sido  informar, concientizar, guiar a las familias y a la sociedad; además de gestionar y canalizar apoyo de instituciones, empresas, gobiernos y personas altruistas para contribuir en la creación de una sociedad más inclusiva desde el enfoque de los Derechos Humanos.</p>
             
     </div>
@@ -247,21 +247,19 @@
                     </div>
                     <div class="modal-body">
                         <hr class="linea-multicolor">
-
-                        <p>-Promover el apoyo oportuno e idóneo en las diferentes etapas de desarrollo de la persona, 
-                            tales como: aspectos médicos, habilitación, estimulación oportuna y adecuada, apoyo psicosocial,
-                            educación y recreación.
-                        </p>
-                        <p>-Promover y gestionar acciones que apoyen el desarrollo de proyecto de vida de la persona con 
-                            síndrome de Down en su entorno, ya sean éstas de carácter social, cultural u otras que puedan promoverlo.</p>
-                        <p>-Generar acciones que permitan ampliar la cobertura de programas de apoyo a un mayor número de 
-                            familias.
-                        </p>
-                        <p>-Motivar la realización de actividades de integración por medio del entretenimiento y tiempo libre 
-                            entre los niños, jóvenes y adultos con y sin síndrome de Down, que permita generar lazos de amistad 
-                            y sentido de pertenencia a la sociedad.
-                        </p>
-                        <p>-Promover actividades pedagógicas, vocacionales y talleres de formación laboral.</p>
+                        <ul id="lista-modal">
+                            <li>Promover el apoyo oportuno e idóneo en las diferentes etapas de desarrollo de la persona, 
+                                tales como: aspectos médicos, habilitación, estimulación oportuna y adecuada, apoyo psicosocial,
+                                educación y recreación.</li>
+                            <li>Promover y gestionar acciones que apoyen el desarrollo de proyecto de vida de la persona con 
+                                síndrome de Down en su entorno, ya sean éstas de carácter social, cultural u otras que puedan promoverlo.</li>
+                            <li>Generar acciones que permitan ampliar la cobertura de programas de apoyo a un mayor número de 
+                                familias.</li>
+                            <li>Motivar la realización de actividades de integración por medio del entretenimiento y tiempo libre 
+                                entre los niños, jóvenes y adultos con y sin síndrome de Down, que permita generar lazos de amistad 
+                                y sentido de pertenencia a la sociedad.</li>
+                            <li>Promover actividades pedagógicas, vocacionales y talleres de formación laboral.</li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -287,12 +285,14 @@
                     </div>
                     <div class="modal-body">
                         <hr class="linea-multicolor">
-                        <p>-Dar apoyo a los padres brindando la información, acompañamiento, asistencia familiar; mediante 
-                            acciones de bienvenida, visitas, reuniones y eventos de tipo social, didáctico y de apoyo 
-                            solidario.</p>
-                        <p>-Propiciar la creación, producción, recopilación y distribución de material informativo a través 
-                            de los medios de comunicación disponibles con temas relacionados con el síndrome de Down.</p>
-                        <p>-Asistir a la familia para impulsar y viabilizar las oportunidades de desarrollo integral de sus hijos.</p>
+                        <ul id="lista-modal">
+                            <li>Dar apoyo a los padres brindando la información, acompañamiento, asistencia familiar; mediante 
+                                acciones de bienvenida, visitas, reuniones y eventos de tipo social, didáctico y de apoyo 
+                                solidario.</li>
+                            <li>Propiciar la creación, producción, recopilación y distribución de material informativo a través 
+                                de los medios de comunicación disponibles con temas relacionados con el síndrome de Down.</li>
+                            <li>Asistir a la familia para impulsar y viabilizar las oportunidades de desarrollo integral de sus hijos.</li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -318,19 +318,19 @@
                     </div>
                     <div class="modal-body">
                         <hr class="linea-multicolor">
-                        <p>-Construir un gripo con representatividad social que haga valer los derechos de la comunidad con síndrome 
-                            de Down.</p>
-                        <p>-Gestionar para que se promulguen leyes que establezcan y garanticen las condiciones para el pleno desarrollo 
+                        <ul id="lista-modal">
+                            <li>Construir un gripo con representatividad social que haga valer los derechos de la comunidad con síndrome 
+                            de Down.</li>
+                            <li>Gestionar para que se promulguen leyes que establezcan y garanticen las condiciones para el pleno desarrollo 
                             integral de la persona con síndrome de Down y que, consecuentemente, brinden medios de apoyo para el 
-                            desarrollo de programas de salud, formación, educación, inserción laboral y recreación.</p>
-                        <p>-Contribuir a la difusión del conocimiento sobre la condición síndrome de Down en los medios de comunicación social para 
-                            sensibilizar y educar a la sociedad en torno a la dignificación de la discapacidad.</p>
-                        <p>-Buscar la orientación y cooperación de organismos nacionales y/o internacionales que tengan los mismos fines y objetivos.
-                        </p>
-                        <p>-Promover la integración e inclusión educativa y laboral en la sociedad como base para un buen desarrollo de la persona con 
-                            síndrome de Down.</p>
-                        <p>-Sensibilizar a las empresas para que integren en sus actividades laborales a personas con síndrome de Down de acuerdo a sus capacidades.
-                        </p>
+                            desarrollo de programas de salud, formación, educación, inserción laboral y recreación.</li>
+                            <li>Contribuir a la difusión del conocimiento sobre la condición síndrome de Down en los medios de comunicación social para 
+                            sensibilizar y educar a la sociedad en torno a la dignificación de la discapacidad.</li>
+                            <li>Buscar la orientación y cooperación de organismos nacionales y/o internacionales que tengan los mismos fines y objetivos.</li>
+                            <li>Promover la integración e inclusión educativa y laboral en la sociedad como base para un buen desarrollo de la persona con 
+                            síndrome de Down.</li>
+                            <li>Sensibilizar a las empresas para que integren en sus actividades laborales a personas con síndrome de Down de acuerdo a sus capacidades.</li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

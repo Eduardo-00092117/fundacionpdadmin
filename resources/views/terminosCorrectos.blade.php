@@ -111,7 +111,7 @@
                     <div class="modal-body">
                         <hr class="linea-multicolor">
                         <p>Es inadecuado utilizar términos como: </p>
-                        <ul style='text-align: left;'>
+                        <ul id="lista-modal">
                             @foreach($erroneo as $pos)
                                 <li>{{$pos->nombre}}</li>
                             @endforeach
@@ -126,7 +126,7 @@
     </div>
     <div class="tCModal">
         <!-- Terminos correctos trigger-->
-        <button type="button" class="btn" id="boton" data-toggle="modal" data-target="#tCor" style="background-color: #f64397; font-size: 1.2em; color: white; width: 90%">
+        <button type="button" class="btn ter" id="boton" data-toggle="modal" data-target="#tCor" style="background-color: #f64397; font-size: 1.2em; color: white; width: 90%">
             Terminos correctos
         </button>
         <!-- Modal terminos erroneos -->
@@ -144,7 +144,7 @@
                     <p style='text-align: justify;'>El término correcto hace referencia al uso del CON o TIENE, dando prioridad a la persona y visualizando su condición 
                     sólo como una parte de sí mismo. De igual forma, es importante respetar la etapa del desarrollo en la que se encuentra.
                      Por ejemplo: </p>
-                     <ul style='text-align: left;'>
+                     <ul id="lista-modal">
                         @foreach($correcto as $pos)
                             <li>{{$pos->nombre}}</li>
                         @endforeach

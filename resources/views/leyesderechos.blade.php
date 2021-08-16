@@ -11,30 +11,31 @@
         </div>
         <div id="moviles">
             <div class="tCModal">
-                <!-- Terminos erroneos trigger-->
-                <button type="button" class="btn" id="boton" data-toggle="modal" data-target="#tErr" style="background-color: #0ca3c2; font-size: 1em; color: white">
+                <!-- leyes trigger-->
+                <button type="button" class="btn" id="boton" data-toggle="modal" data-target="#tErr" style="background-color: #0ca3c2; font-size: 1em; color: white; width: 60%;">
                     Leyes
                 </button>
-                <!-- Modal terminos erroneos -->
+                <!-- Modal leyes -->
                 <div class="modal fade" id="tErr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                     <div class="modal-content" id="p_sDown-c">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Terminos erróneos</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Leyes</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                         </div>
                         <div class="modal-body">
                             <hr class="linea-multicolor">
-                            <p>-Personas que SUFREN/PADECEN discapacidad</p>
-                            <p>-Discapacitado</p>
-                            <p>-Personas especiales</p>
-                            <p>-Minusválidos</p>
-                            <p>-Cieguitos, Sorditos</p>
-                            <p>-Retraso Mental</p>
-                            <p>-Mongol</p>
-                            <p>-Niño Down</p>
+                            <ul id="lista-modal">
+                                <li>Convención sobre los Derechos de las Personas con Discapacidad y Protocolo Facultativo de las Naciones Unidas (ONU).</li>
+                                <li>Código de Trabajo.</li>
+                                <li>Ley de Equiparación de Oportunidades para las Personas con Discapacidad.</li>
+                                <li>Ley de Desarrollo y Protección Social.</li>
+                                <li>Ley de Protección Integral de la Niñez y Adolescencia.</li>
+                                <li>Resolución Aprobada por la Asamblea General el 19 de Diciembre de 2011: Día Mundial del Síndrome de Down.</li>
+                                <li>Política de Eduación Inclusiva.</li>
+                            </ul>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

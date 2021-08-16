@@ -11,34 +11,39 @@
 <div class="contacto">
     <div class="container-fluid" id="contact-container">
         <div class="row">
-            <div class="col">
+            <div class="col-lg-6">
 
                 <div class="row">
-                    <div class="col" id="textBlock">
-                        <i class="fas fa-phone" style="color: white; margin-top: 10px; font-size: 1.6em;"></i>
-                        <div class="col">
-                            <p id="texto_nf" class="v_resaltado">Llámanos</p>
-                            <p id="texto_nf"><a class="v_resaltado" href="tel:+50322887837">{{$datos[0]->telefono1}}</a></p >
-                                <p id="texto_nf"><a class="v_resaltado" href="tel:+50322887891">{{$datos[0]->telefono2}}</a></p >
+                    <div class="col-lg-6 col-md-6">
+                        <div id="textBlock">
+                            <i class="fas fa-phone" style="color: white; margin-top: 10px; font-size: 1.6em;"></i>
+                            <div class="col">
+                                <p id="texto_nf" class="v_resaltado">Llámanos</p>
+                                <p id="texto_nf"><a class="v_resaltado" href="tel:+50322887837">{{$datos[0]->telefono1}}</a></p >
+                                    <p id="texto_nf"><a class="v_resaltado" href="tel:+50322887891">{{$datos[0]->telefono2}}</a></p >
+                            </div>
                         </div>
                     </div>
-                    <div class="col" id="textBlock">
-                        <i class="fas fa-clock" style="color: white; margin-top: 10px; font-size: 1.6em;"></i>
-                        <div class="col">
-                            <p id="texto_nf" class="v_resaltado">Horario</p>
-                            <p id="texto_nf" class="v_resaltado">
-                                Lunes a Viernes: <br> {{$datos[0]->horario_semanal}}
-                            </p>
-                            <p id="texto_nf" class="v_resaltado">
-                                Sabado: <br> {{$datos[0]->horario_fin}}
-                            </p>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div id="textBlock">
+                            <i class="fas fa-clock" style="color: white; margin-top: 10px; font-size: 1.6em;"></i>
+                            <div class="col">
+                                <p id="texto_nf" class="v_resaltado">Horario</p>
+                                <p id="texto_nf" class="v_resaltado">
+                                    Lunes a Viernes: <br> {{$datos[0]->horario_semanal}}
+                                </p>
+                                <p id="texto_nf" class="v_resaltado">
+                                    Sabado: <br> {{$datos[0]->horario_fin}}
+                                </p>
+                            </div>
                         </div>
                     </div>
                    
                 </div>
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-6 col-md-6">
                         <div id="textBlock">
                             <i class="fas fa-map-marked-alt" style="color: white; margin-top: 10px; font-size: 1.6em;"></i>
                             <div class="col">
@@ -48,7 +53,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6 col-md-6">
                         <div class="col" id="facebook">
                             <a href="{{$datos[0]->url_facebook}}" target="_blank">
 
@@ -72,7 +77,7 @@
                     <iframe src="{{$datos[0]->mapa}}" frameborder="0" style="border:10px solid gray;" allowfullscreen="" id="mapa"></iframe>
                 </div>
             </div>
-            <div class="col info">
+            <div class="col-lg-6 info">
                 @if(Session::has('flash_message'))
                     <div class="alert alert-danger alert-dismissible fade show" id="success-alert" role="alert">
                     <strong>{!! session('flash_message') !!}</strong> 
@@ -101,7 +106,9 @@
                         <p>Mensaje</p>
                         <textarea class="form-control form-control-lg" name="message" type="text" rows='6'></textarea>
                     </div>
-                    <button type="submit" class="btn btn-danger fenviar">Enviar</button>
+                    <div class="btn-contacto">
+                        <button type="submit" class="btn btn-danger fenviar"><i class="far fa-paper-plane"></i> Enviar</button>
+                    </div>
                 </form>
             </div>
         </div>

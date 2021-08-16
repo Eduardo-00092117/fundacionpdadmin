@@ -26,7 +26,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[32]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[32]->descripcion}}</p>
                                 
                             </div>
                             <div class="modal-footer">
@@ -52,7 +52,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[33]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[33]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -77,7 +77,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[34]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[34]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -102,7 +102,7 @@
                             </div>
                             <div class="modal-body">
                                 <hr class="linea-multicolor">
-                                <p>{{$subarea[35]->descripcion}}</p>
+                                <p id="contenido-modal">{{$subarea[35]->descripcion}}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

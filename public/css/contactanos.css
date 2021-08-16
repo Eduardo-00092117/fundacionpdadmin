@@ -50,4 +50,10 @@ textarea {
 
 .fenviar{
   margin: 10px;
+  text-align: center;
+}
+
+.btn-contacto{
+  display: flex;
+  justify-content: center;
 }

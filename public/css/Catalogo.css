@@ -3,6 +3,42 @@ body {
   padding: 0px;
 }
 
+#lista-modal{
+  text-align: left;
+}
+
+.modal-title{
+  width: 100%;
+  text-align: center;
+}
+
+#contenido-modal{
+  text-align: justify;
+  font-family: inherit;
+}
+
+.modal-header{
+  border-bottom: 0px;
+}
+
+.modal-body > .linea-multicolor{
+  width: 100%;
+}
+
+.modal-body{
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.modal-body{
+  word-wrap: break-word;
+}
+
+.modal-footer{
+  border-top: 0px;;
+}
+
 .center {
   text-align: center;
 }
@@ -218,12 +254,17 @@ footer{
   height: max-content;
 }
 
+.info form{
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 0px 30px 0px 30px;
+}
+
 .info{
   background: url('/img/footer/backimg.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
 }
 
 footer bgimg{
@@ -263,7 +304,8 @@ footer bgimg{
 #ubicacion{
   display: flex;
   flex-direction: row;
-  margin: 10px;
+  margin-top: 10px;
+  align-items: center;
 }
 
 #ubicacion p, #ubicacion h6, #facebook a p, #insta a p, #cubicacion h6{
@@ -278,7 +320,7 @@ footer bgimg{
 #facebook a {
   display: flex;
   flex-direction: row;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 #facebook a img{
@@ -297,7 +339,7 @@ footer bgimg{
 #insta a {
   display: flex;
   flex-direction: row;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 #insta a img{
@@ -425,12 +467,16 @@ footer bgimg{
   font-size: 1em;
 }
 
+.dropdown-menu{
+  padding: 0;
+  margin: 0;
+}
+
 .sub-menu{
   background: #fbbc35;
 }
 
 .sub-menu a{
-  margin: 5px;
   padding: 15px;
   color: rgb(32, 32, 32);
   height:auto;

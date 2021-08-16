@@ -64,7 +64,7 @@
                 </div>
 
             </div>
-            <div class="row bg-gris-claro" style="margin-top: 2%;">
+            <div class="row bg-gris-claro sindromedown-gris" style="margin-top: 2%;">
                 <div class="col-md-3 titulo-anaranjado-sindrome">
                     <h2 class="tc-anaranjado">¡CAUSA!</h2>
                 </div>
@@ -176,7 +176,7 @@
                 </div>
             </div>
  
-            <div class="row bg-gris-claro" style="margin-top: 2%;">
+            <div class="row bg-gris-claro sindromedown-gris" style="margin-top: 2%;">
                 <div class="col-md-3 titulo-anaranjado-sindrome">
                     <h2 class="tc-anaranjado">¡NOTA!</h2>
                 </div>
@@ -255,7 +255,7 @@
                 </div>
 
             </div>
-            <div class="row" style="padding-top: 1%;">
+            <div class="row sindromedown-gris">
                 <div class="col-md-3 titulo-anaranjado-sindrome">
                     <h2 class="tc-anaranjado">¡NOTA!</h2>
                 </div>
