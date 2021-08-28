@@ -106,6 +106,7 @@
                         <p>Mensaje</p>
                         <textarea class="form-control form-control-lg" name="message" type="text" rows='6'></textarea>
                     </div>
+                    <div class="g-recaptcha" data-sitekey="6Ld-aCscAAAAANvTL4VY4kvzUo79Ck5Nfnm4REbJ"></div>
                     <div class="btn-contacto">
                         <button type="submit" class="btn btn-danger fenviar"><i class="far fa-paper-plane"></i> Enviar</button>
                     </div>
